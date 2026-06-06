@@ -1,0 +1,297 @@
+{
+  "workshop": {
+    "shortName": "XRAG '26",
+    "subtitle": "Agentic AI for Extended Reality",
+    "fullName": "The 1st International Workshop on Agentic AI for Extended Reality",
+    "venue": "IEEE ISMAR 2026",
+    "venueUrl": "https://www.ieeeismar.net/2026/",
+    "location": "Bari, Italy",
+    "date": "October 5 or 6, 2026",
+    "conferenceDates": "October 5–9, 2026",
+    "format": "Half-day, in-person",
+    "status": "Proposal in preparation",
+    "officialCallUrl": "https://www.ieeeismar.net/2026/call-for-workshops/",
+    "contactEmail": "lorenzo.stacchio@unimc.it",
+    "bannerImage": "assets/banner.png"
+  },
+
+  "nav": [
+    { "label": "Home",        "href": "#home" },
+    { "label": "About",       "href": "#about" },
+    { "label": "Call",        "href": "#cfp" },
+    { "label": "Dates",       "href": "#dates" },
+    { "label": "Submission",  "href": "#submission" },
+    { "label": "Program",     "href": "#program" },
+    { "label": "Organizers",  "href": "#organizers" },
+    { "label": "Committee",   "href": "#committee" },
+    { "label": "Contact",     "href": "#contact" }
+  ],
+
+  "hero": {
+    "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — October 5 or 6, 2026",
+    "blurb": "XRAG '26 is a focused venue for researchers, designers, practitioners, and industry experts exploring how AI agents can perceive, reason, remember, plan, and act in XR systems while keeping people in control.",
+    "ctas": [
+      { "label": "Call for Papers",  "href": "#cfp",        "style": "primary" },
+      { "label": "Important Dates",  "href": "#dates",      "style": "ghost"   }
+    ]
+  },
+
+  "about": {
+    "kicker": "Aims and Scope",
+    "title": "XR is entering a new phase: situated, controllable, human-centered Agentic AI.",
+    "areasKicker": "Research Macro-Areas",
+    "areasTitle": "The five research macro-areas of XRAG '26",
+    "areasIntro": "XRAG '26 is organized around five interconnected research macro-areas. They frame the call for papers, structure the workshop discussion, and define the scope of contributions we welcome.",
+    "paragraphs": [
+      "Immersive systems are no longer limited to visualization, spatial interaction, or situated perception, while AI assistants are moving beyond chat-based interfaces toward multimodal, tool-using, and context-aware systems. Advances in foundation models, egocentric perception, wearable sensing, generative AI, memory, and autonomous planning are creating the conditions for a new class of agentic XR systems.",
+      "These systems can perceive physical and virtual environments, reason over spatial and multimodal context, remember user goals and environmental states, act through digital or embodied tools, and return control to users through immersive, wearable, and spatial interfaces.",
+      "XRAG '26 brings together XR, Agentic AI, Human-Computer Interaction, Cognitive Science, and applied research communities around one concrete question: how should we design, evaluate, and govern XR systems in which AI agents can perceive, reason, remember, plan, and act?"
+    ],
+    "pillars": [
+      { "number": "01", "title": "Agentic Architectures and Spatial Intelligence for XR",   "text": "AI agents for AR/MR/VR, spatial computing, perception–reasoning–planning–action pipelines, and multimodal foundation models in immersive systems." },
+      { "number": "02", "title": "Egocentric, Multimodal, and Wearable AI Agents",          "text": "Smart-glasses assistants, egocentric vision, multimodal sensing, and real-time situated perception across physical, virtual, and mixed environments." },
+      { "number": "03", "title": "Immersive Human-Agent Interaction, Control, and Collaboration", "text": "Human–agent collaboration, delegation, interruption and recovery, spatial feedback, trust, and human-centered interaction design." },
+      { "number": "04", "title": "Memory, Personalization, Tool Use, and Creative XR Workflows",  "text": "Long-term memory, personalization, tool-using agents, AI-assisted XR authoring, generative 3D content, and iterative creative workflows." },
+      { "number": "05", "title": "Applications, Deployment, and Societal Impact of Agentic XR",   "text": "Real-world agentic XR in industry, education, healthcare, cultural heritage, and entertainment, with attention to privacy, safety, accessibility, and governance." }
+    ]
+  },
+
+  "topics": {
+    "lead": "A range of topics, which embrace different disciplines and perspectives, are invited to contribute to XRAG '26, including, but not restricted to:",
+    "items": [
+      "Agentic architectures for AR, MR, and VR systems",
+      "AI agents for spatial computing and immersive environments",
+      "Wearable AI assistants and smart-glasses-based agents",
+      "Egocentric perception for agentic XR",
+      "Multimodal foundation models for XR interaction",
+      "Tool-using agents in immersive and spatial interfaces",
+      "Long-term memory, context modeling, and personalization in XR agents",
+      "Human-agent collaboration and human-AI teaming in AR/MR/VR",
+      "Proactive, context-aware, and adaptive XR agents",
+      "Spatial feedback, explanations, and legibility of agent actions",
+      "Human control, delegation, interruption, and recovery mechanisms",
+      "AI-assisted XR authoring and content generation",
+      "Agentic AI for creativity, co-creation, and creative workflows in XR",
+      "Generative 3D content, scene understanding, and world modeling",
+      "Evaluation methods, metrics, and benchmarks for agentic XR systems",
+      "Trust, safety, reliability, privacy, accessibility, ethics, and governance of agentic XR",
+      "Applications in education, healthcare, cultural heritage, industry, creativity, entertainment, and everyday computing",
+      "Position papers on future research agendas for agentic AI and XR"
+    ]
+  },
+
+  "callForPapers": {
+    "kicker": "Call for Papers",
+    "title2": "Call for Papers",
+    "lead": "XRAG '26 seeks several types of contributions at the intersection of Agentic AI and Extended Reality, including:",
+    "categories": [
+      { "title": "Full research papers",     "text": "up to 6 pages + 1 page for references; mature research contributions, system papers, evaluations, datasets, methods, or theoretical frameworks." },
+      { "title": "Short / work-in-progress papers", "text": "up to 4 pages + 1 page for references; early-stage research, preliminary results, technical explorations, prototype descriptions, or emerging ideas." },
+      { "title": "Position papers",          "text": "2–4 pages + 1 page for references; critical perspectives, conceptual arguments, design principles, or taxonomies." },
+      { "title": "Demo papers",              "text": "2–4 pages + 1 page for references; demonstrations of working prototypes, interactive systems, XR applications, agentic interfaces, authoring tools, datasets, or technical showcases." }
+    ],
+    "review": "All submissions are peer-reviewed by the workshop organizers and program committee. Each paper receives at least two reviews. Criteria: relevance to agentic XR, originality, clarity, methodological soundness, technical feasibility, and potential to stimulate discussion.",
+    "publication": "Each accepted workshop paper is included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to the final ISMAR workshop publication policy, registration requirements, and camera-ready guidelines."
+  },
+
+  "importantDates": {
+    "kicker": "Important Dates",
+    "title": "Key deadlines",
+    "note": "All deadlines are 23:59 AoE (Anywhere on Earth) unless otherwise noted.",
+    "items": [
+      { "date": "July 5, 2026",     "title": "Paper Submission Deadline",   "text": "Submit your paper via EasyChair before this date." },
+      { "date": "July 17, 2026",    "title": "Author Notification",         "text": "Acceptance decisions will be communicated to authors." },
+      { "date": "July 31, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
+      { "date": "Oct 5 or 6, 2026", "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy." },
+      { "date": "Oct 5–9, 2026",    "title": "IEEE ISMAR 2026 Conference",  "text": "Main conference in Bari, Italy." }
+    ]
+  },
+
+  "submission": {
+    "kicker": "Submission",
+    "title": "How to submit",
+    "format": "Submissions must follow the IEEE Computer Society VGTC conference format and the ISMAR formatting requirements. Submissions are single-blind unless ISMAR's official policy says otherwise; please follow the ISMAR 2026 instructions for authors.",
+    "url": "",
+    "urlLabel": "Submissions are managed through EasyChair. The submission link will be made available on this website shortly.",
+    "templates": [
+      { "label": "IEEE VGTC conference templates", "href": "https://tc.computer.org/vgtc/publications/conference/" },
+      { "label": "ISMAR 2026 official website",    "href": "https://www.ieeeismar.net/2026/" }
+    ],
+    "notes": [
+      "All submissions go through EasyChair — link will be posted here once active.",
+      "Each paper will receive at least two reviews from the organizing committee and/or program committee.",
+      "At least one author of every accepted paper must register for ISMAR 2026 and present the work on-site in Bari.",
+      "Accepted papers are included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to ISMAR's final workshop publication policy."
+    ]
+  },
+
+  "program": {
+    "kicker": "Program",
+    "title": "Rudimentary half-day agenda",
+    "intro": "XRAG '26 is a half-day in-person, highly interactive workshop combining classic research presentations with structured collaborative activities. The agenda is preliminary and may evolve with the number of accepted papers and final ISMAR scheduling.",
+    "items": [
+      { "time": "09:00–09:10", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
+      { "time": "09:10–09:50", "title": "Invited keynote",              "text": "Industry perspective on cloud-edge AI infrastructures for scalable agentic XR (tentative speaker: Mark Kühner, SAP / Gaia-X Board of Directors)." },
+      { "time": "09:50–11:30", "title": "Accepted paper presentations", "text": "6–8 minute talks (8–10 if fewer than 10 papers accepted), followed by clustered discussion." },
+      { "time": "11:30–11:45", "title": "Break",                        "text": "Informal networking and preparation for the interactive sessions." },
+      { "time": "11:45–12:15", "title": "Moderated thematic discussion","text": "Discuss key challenges around agent capabilities, user control, failure recovery, safety, and evaluation." },
+      { "time": "12:15–12:25", "title": "Design clinic briefing",       "text": "Introduce the Agentic XR Scenario Canvas and organize participants into working groups." },
+      { "time": "12:25–13:05", "title": "Hands-on design clinic",       "text": "Develop concrete agentic XR scenarios across selected application domains." },
+      { "time": "13:05–13:25", "title": "Roadmap-building session",     "text": "Synthesize group outputs into open challenges, design principles, benchmark needs, and evaluation requirements." },
+      { "time": "13:25–13:30", "title": "Closing and next steps",       "text": "Key takeaways, post-workshop outputs, and community follow-up." }
+    ]
+  },
+
+  "organizers": {
+    "kicker": "Organizing Committee",
+    "title": "Organizers",
+    "intro": "An interdisciplinary team across XR, Agentic AI, computer vision, cognitive science, and human-centered systems. At least three organizers (Lorenzo Stacchio, Allegra De Filippo, and Claudio Sirocchi) will be physically present in Bari to manage the workshop.",
+    "members": [
+      {
+        "name": "Lorenzo Stacchio",
+        "role": "Principal Organizer",
+        "affiliation": "University of Macerata, Italy — VRAI Lab",
+        "email": "lorenzo.stacchio@unimc.it",
+        "image": "organizzatori/lorenzo stacchio.png",
+        "website": "https://scholar.google.com/citations?hl=it&user=z3iakesAAAAJ&view_op=list_works"
+      },
+      {
+        "name": "Emanuele Frontoni",
+        "role": "Senior Co-Organizer",
+        "affiliation": "University of Macerata, Italy — VRAI Lab; IIT Genoa; NemoLab, Niguarda Hospital, Milan",
+        "email": "emanuele.frontoni@unimc.it",
+        "image": "organizzatori/emanuele frontoni.webp",
+        "website": "https://scholar.google.com/citations?user=Vgi8nAcAAAAJ&hl=it"
+      },
+      {
+        "name": "Andrea Gaggioli",
+        "role": "Senior Co-Organizer",
+        "affiliation": "Università Cattolica del Sacro Cuore, Milan, Italy — PSICOM Research Center",
+        "email": "andrea.gaggioli@unicatt.it",
+        "image": "organizzatori/andrea gaggioli.webp",
+        "website": "https://scholar.google.com/citations?user=Wr_ptHkAAAAJ&hl=it"
+      },
+      {
+        "name": "Enrique Yeguas-Bolívar",
+        "role": "Co-Organizer",
+        "affiliation": "University of Córdoba, Spain — Department of Computer Science and AI",
+        "email": "in1yeboe@uco.es",
+        "image": "organizzatori/Enrique Yeguas Bolivar.jpg",
+        "website": "https://www.uco.es/~in1yeboe/"
+      },
+      {
+        "name": "Matteo Dunnhofer",
+        "role": "Co-Organizer",
+        "affiliation": "University of Udine, Italy & York University, Canada",
+        "email": "matteo.dunnhofer@uniud.it",
+        "image": "organizzatori/matteo dunnhofer.jpg",
+        "website": "https://matteo-dunnhofer.github.io"
+      },
+      {
+        "name": "Allegra De Filippo",
+        "role": "Co-Organizer",
+        "affiliation": "University of Bologna, Italy — Department of Computer Science and Engineering",
+        "email": "allegra.defilippo@unibo.it",
+        "image": "organizzatori/allegra de filippo.jpg",
+        "website": "https://www.unibo.it/sitoweb/allegra.defilippo/en"
+      },
+      {
+        "name": "Claudio Sirocchi",
+        "role": "Co-Organizer",
+        "affiliation": "Università Politecnica delle Marche, Italy",
+        "email": "c.sirocchi@pm.univpm.it",
+        "image": "organizzatori/claudio sirocchi.jpg",
+        "website": "https://dii.univpm.it/claudio-sirocchi/"
+      },
+      {
+        "name": "José Manuel Alcalde Llergo",
+        "role": "Co-Organizer",
+        "affiliation": "Universidad de Córdoba, Spain",
+        "email": "jmalcalde@uco.es",
+        "image": "organizzatori/José Manuel Alcalde Llergo.jpg",
+        "website": "https://scholar.google.com/citations?user=PQrD4UMAAAAJ&hl=it"
+      }
+    ]
+  },
+
+  "committee": {
+    "kicker": "Program Committee",
+    "title": "Program Committee",
+    "intro": "An international and interdisciplinary committee covering Extended Reality, Artificial Intelligence, human-agent interaction, computer vision, wearable systems, and human-centered systems. Confirmed members will be explicitly marked on this page.",
+    "members": [
+      { "name": "Ilaria Tiddi",            "affiliation": "Vrije Universiteit Amsterdam, The Netherlands" },
+      { "name": "Jennifer Renoux",         "affiliation": "Örebro University, Sweden" },
+      { "name": "Imke van Heerden",        "affiliation": "King's College London, United Kingdom" },
+      { "name": "Salvatore Anzalone",      "affiliation": "Université Paris 8, France" },
+      { "name": "Sanyam Jain",             "affiliation": "Aarhus University, Denmark" },
+      { "name": "Luís Espírito Santo",     "affiliation": "University of Coimbra, Portugal / Vrije Universiteit Brussel, Belgium" },
+      { "name": "Riccardo De Benedictis",  "affiliation": "CNR — National Research Council of Italy, Italy" },
+      { "name": "Cataldo Musto",           "affiliation": "University of Bari, Italy" },
+      { "name": "Giuseppe Spillo",         "affiliation": "University of Bari, Italy" },
+      { "name": "Giovanna Castellano",     "affiliation": "University of Bari, Italy" },
+      { "name": "Gennaro Vessio",          "affiliation": "University of Bari, Italy" },
+      { "name": "Pasquale Cascarano",      "affiliation": "University of Bologna, Italy" },
+      { "name": "Giacomo Vallasciani",     "affiliation": "University of Bologna, Italy" },
+      { "name": "Giorgio Franceschelli",   "affiliation": "University of Bologna, Italy" },
+      { "name": "Angelo Croatti",          "affiliation": "AUSL Romagna, Italy" },
+      { "name": "Paolo Baldini",           "affiliation": "University of Bologna, Italy" },
+      { "name": "Vincenzo Armandi",        "affiliation": "University of Bologna, Italy" },
+      { "name": "Matteo Magnini",          "affiliation": "University of Bologna, Italy" },
+      { "name": "Alessandro Galdelli",     "affiliation": "Università Politecnica delle Marche, Italy" },
+      { "name": "Stefano Mereu",           "affiliation": "Università Politecnica delle Marche, Italy" },
+      { "name": "Leonardo Bordoni",        "affiliation": "Università Politecnica delle Marche, Italy" },
+      { "name": "Juri Vitali",             "affiliation": "Università Politecnica delle Marche, Italy" },
+      { "name": "Primo Zingaretti",        "affiliation": "Università Politecnica delle Marche, Italy" },
+      { "name": "Adriano Mancini",         "affiliation": "Università Politecnica delle Marche, Italy" },
+      { "name": "Paolo Sernani",           "affiliation": "University of Macerata, Italy" },
+      { "name": "Alessandro Cacciatore",   "affiliation": "University of Macerata, Italy" },
+      { "name": "Riccardo Rosati",         "affiliation": "University of Macerata, Italy" },
+      { "name": "Mariana Buenestado Fernández", "affiliation": "Department of Education, University of Córdoba, Spain" },
+      { "name": "Alberto Fernández Merchán",    "affiliation": "Department of Computer Science and AI, University of Córdoba, Spain" },
+      { "name": "Rafael Aguilar Ortega",        "affiliation": "Department of Computer Science and AI, University of Córdoba, Spain" },
+      { "name": "Rafael Berral Soler",          "affiliation": "Department of Computer Science and AI, University of Córdoba, Spain" },
+      { "name": "María Isabel Jiménez Velasco", "affiliation": "Department of Computer Science and AI, University of Córdoba, Spain" },
+      { "name": "Andrea Ubaldi",           "affiliation": "Università Cattolica del Sacro Cuore, Italy" },
+      { "name": "Roberto Gatta",           "affiliation": "Università Cattolica del Sacro Cuore, Italy" },
+      { "name": "Gilda Manfredi",          "affiliation": "University of Basilicata, Italy" },
+      { "name": "Lucia Migliorelli",       "affiliation": "University of Teramo, Italy" },
+      { "name": "Andrea Antonio Cantone",  "affiliation": "University of Salerno, Italy" },
+      { "name": "Bianca Maria Deconcini",  "affiliation": "University of Turin, Italy" },
+      { "name": "Antonio Pietro Ugo Fleres","affiliation": "University of Messina, Italy" },
+      { "name": "Francesco Rusin",         "affiliation": "University of Trieste, Italy" },
+      { "name": "Yuri Gardinazzi",         "affiliation": "University of Trieste, Italy" }
+    ]
+  },
+
+  "sponsors": {
+    "kicker": "Hosting institutions",
+    "title": "Institutions",
+    "items": [
+      { "name": "University of Macerata",                                 "url": "https://www.unimc.it/",   "logo": "università/unimc.png" },
+      { "name": "Università Politecnica delle Marche",                    "url": "https://www.univpm.it/",  "logo": "università/univpm.svg" },
+      { "name": "Alma Mater Studiorum — University of Bologna",           "url": "https://www.unibo.it/",   "logo": "università/Seal_of_the_University_of_Bologna.svg" },
+      { "name": "University of Udine",                                    "url": "https://www.uniud.it/",   "logo": "università/udine.svg" },
+      { "name": "York University",                                        "url": "https://www.yorku.ca/",   "logo": "università/york.png" },
+      { "name": "Universidad de Córdoba",                                 "url": "https://www.uco.es/",     "logo": "università/Logounicordoba.svg" },
+      { "name": "Università Cattolica del Sacro Cuore",                   "url": "https://www.unicatt.it/", "logo": "università/universita-cattolica-del-sacro-cuore-seal-logo-01.png" },
+      { "name": "VRAI — Vision Robotics and Artificial Intelligence Lab", "url": "https://vrailab.it/",                        "logo": "università/vrai.png" },
+      { "name": "PSICOM — Research Center in Communication Psychology",   "url": "https://centridiricerca.unicatt.it/psicom/it.html",                        "logo": "università/psicom.png" }
+    ]
+  },
+
+  "contact": {
+    "kicker": "Contact",
+    "title": "Get in touch",
+    "text": "Questions about scope, submissions, or organization? Email the principal organizer.",
+    "email": "lorenzo.stacchio@unimc.it",
+    "social": []
+  },
+
+  "footer": {
+    "text": "XRAG '26 · 1st International Workshop on Agentic AI for Extended Reality · IEEE ISMAR 2026, Bari, Italy",
+    "links": [
+      { "label": "ISMAR 2026",          "href": "https://www.ieeeismar.net/2026/" },
+      { "label": "Workshop Call",       "href": "https://www.ieeeismar.net/2026/call-for-workshops/" }
+    ]
+  }
+}

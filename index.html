@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="XRAG '26 — IEEE ISMAR 2026 Workshop on Agentic AI for Extended Reality, Bari, Italy.">
+    <title>XRAG '26 — Agentic AI for Extended Reality (ISMAR 2026 Workshop)</title>
+
+    <link rel="icon"          type="image/png" href="assets/icon.png">
+    <link rel="apple-touch-icon"                href="assets/icon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar navbar-expand-lg sticky-top site-header">
+      <div class="container-xxl">
+        <a class="navbar-brand brand" href="#home">
+          <img src="assets/icon.png" alt="" class="brand-icon" aria-hidden="true">
+          <span class="brand-mark" data-bind="workshop.shortName">XRAG '26</span>
+          <span class="brand-text d-none d-md-inline" data-bind="workshop.subtitle">Agentic AI for Extended Reality</span>
+        </a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#siteNav"
+                aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="siteNav">
+          <ul class="navbar-nav align-items-lg-center gap-lg-2" data-slot="nav"></ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- ============ HOME / HERO ============ -->
+      <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container-xxl position-relative">
+          <div class="text-center mx-auto hero-content" style="max-width: 980px;">
+            <img src="assets/icon.png" alt="" class="hero-icon" aria-hidden="true"
+                 onerror="this.style.display='none'">
+            <p class="eyebrow" data-bind="hero.eyebrow"></p>
+            <h1 class="display-3 fw-black mb-2" data-bind="workshop.shortName"></h1>
+            <p class="subtitle h3 fw-bold mb-3" data-bind="workshop.subtitle"></p>
+            <p class="blurb lead" data-bind="hero.blurb"></p>
+            <div class="snapshot d-flex flex-wrap justify-content-center gap-2 my-4" data-slot="snapshot"></div>
+            <div class="d-flex flex-wrap justify-content-center gap-2" data-slot="heroActions"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section id="about" class="block paper">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4 mb-md-5">
+            <p class="section-kicker" data-bind="about.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="about.title"></h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-9 about-copy" data-slot="aboutParagraphs"></div>
+          </div>
+
+          <!-- Macro research areas -->
+          <div class="areas-header text-center mx-auto mt-5 mb-4">
+            <p class="section-kicker areas-kicker" data-bind="about.areasKicker">Research Macro-Areas</p>
+            <h3 class="areas-title" data-bind="about.areasTitle">The five research macro-areas of XRAG '26</h3>
+            <p class="areas-intro text-muted-ink" data-bind="about.areasIntro">
+              The workshop is organized around five interconnected research macro-areas
+              that frame the call for papers and the workshop discussion.
+            </p>
+          </div>
+          <div class="row g-3 g-md-4 mt-2 justify-content-center" data-slot="pillars"></div>
+        </div>
+      </section>
+
+      <!-- ============ CALL FOR PAPERS ============ -->
+      <section id="cfp" class="block alt">
+        <div class="container-xxl">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 col-xl-8 cfp-simple">
+
+              <h2 class="cfp-h" data-bind="callForPapers.title2">Call for Papers</h2>
+              <p data-bind="callForPapers.lead"></p>
+              <ul class="cfp-bullets" data-slot="cfpCategories"></ul>
+
+              <p class="mt-4" data-bind="topics.lead">
+                A range of topics, which embrace different disciplines and perspectives,
+                are invited to contribute to XRAG '26, including, but not restricted to:
+              </p>
+              <ul class="cfp-bullets" data-slot="topics"></ul>
+
+              <p class="mt-4 text-muted-ink small" data-bind="callForPapers.review"></p>
+              <p class="text-muted-ink small" data-bind="callForPapers.publication"></p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ IMPORTANT DATES ============ -->
+      <section id="dates" class="block">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4">
+            <p class="section-kicker" data-bind="importantDates.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="importantDates.title"></h2>
+          </div>
+          <p class="dates-note mx-auto" data-bind="importantDates.note"></p>
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-9">
+              <div class="timeline d-grid gap-3" data-slot="dates"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SUBMISSION ============ -->
+      <section id="submission" class="block alt">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4 mb-md-5">
+            <p class="section-kicker" data-bind="submission.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="submission.title"></h2>
+          </div>
+          <div class="row g-3 g-md-4">
+            <div class="col-lg-7">
+              <div class="card-soft h-100">
+                <h3>Format</h3>
+                <p data-bind="submission.format"></p>
+                <h3 class="mt-4">Notes</h3>
+                <ul class="ps-3 mb-0" data-slot="submissionNotes"></ul>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="card-soft h-100">
+                <h3>Submit</h3>
+                <p data-bind="submission.urlLabel"></p>
+                <div data-slot="submissionLink"></div>
+                <h3 class="mt-4">Templates</h3>
+                <ul class="ps-3 mb-0" data-slot="submissionTemplates"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROGRAM ============ -->
+      <section id="program" class="block">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4">
+            <p class="section-kicker" data-bind="program.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="program.title"></h2>
+            <p class="lead text-muted-ink" data-bind="program.intro"></p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <div class="program-list d-grid gap-2" data-slot="program"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ORGANIZERS ============ -->
+      <section id="organizers" class="block alt">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4 mb-md-5">
+            <p class="section-kicker" data-bind="organizers.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="organizers.title"></h2>
+            <p class="lead text-muted-ink" data-bind="organizers.intro"></p>
+          </div>
+          <div class="row g-3 g-md-4" data-slot="organizers"></div>
+        </div>
+      </section>
+
+      <!-- ============ COMMITTEE ============ -->
+      <section id="committee" class="block">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4">
+            <p class="section-kicker" data-bind="committee.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="committee.title"></h2>
+            <p class="lead text-muted-ink" data-bind="committee.intro"></p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <ul class="committee-list row g-2 list-unstyled mb-0" data-slot="committee"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SPONSORS ============ -->
+      <section id="sponsors" class="block paper">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4">
+            <p class="section-kicker" data-bind="sponsors.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="sponsors.title"></h2>
+          </div>
+          <div class="sponsor-grid" data-slot="sponsors"></div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="block ink">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4">
+            <p class="section-kicker" data-bind="contact.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="contact.title"></h2>
+            <p class="lead" data-bind="contact.text"></p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <div class="contact-card text-center">
+                <p class="small mb-1 text-muted-ink">Workshop chairs</p>
+                <a class="contact-email" data-bind-attr="href:contact.emailHref" data-bind="contact.email"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-xxl d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <p class="mb-0" data-bind="footer.text"></p>
+        <div class="d-flex flex-wrap gap-3" data-slot="footerLinks"></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
