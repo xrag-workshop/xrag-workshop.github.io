@@ -111,8 +111,8 @@
     "kicker": "Submission",
     "title": "How to submit",
     "format": "Submissions must follow the IEEE Computer Society VGTC conference format and the ISMAR formatting requirements. Submissions are single-blind unless ISMAR's official policy says otherwise; please follow the ISMAR 2026 instructions for authors.",
-    "url": "",
-    "urlLabel": "Submissions are managed through EasyChair. The submission link will be made available on this website shortly.",
+    "url": "https://easychair.org/my/conference?conf=xrag26",
+    "urlLabel": "Submissions are managed through EasyChair. Click the button below to open the submission portal.",
     "templates": [
       { "label": "IEEE VGTC conference templates", "href": "https://tc.computer.org/vgtc/publications/conference/" },
       { "label": "ISMAR 2026 official website",    "href": "https://www.ieeeismar.net/2026/" }
