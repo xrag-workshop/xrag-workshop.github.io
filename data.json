@@ -85,10 +85,10 @@
     "title2": "Call for Papers",
     "lead": "XRAG '26 seeks several types of contributions at the intersection of Agentic AI and Extended Reality, including:",
     "categories": [
-      { "title": "Full research papers",     "text": "up to 6 pages + 1 page for references; mature research contributions, system papers, evaluations, datasets, methods, or theoretical frameworks." },
-      { "title": "Short / work-in-progress papers", "text": "up to 4 pages + 1 page for references; early-stage research, preliminary results, technical explorations, prototype descriptions, or emerging ideas." },
-      { "title": "Position papers",          "text": "2–4 pages + 1 page for references; critical perspectives, conceptual arguments, design principles, or taxonomies." },
-      { "title": "Demo papers",              "text": "2–4 pages + 1 page for references; demonstrations of working prototypes, interactive systems, XR applications, agentic interfaces, authoring tools, datasets, or technical showcases." }
+      { "title": "Full research papers",     "text": "up to 6 pages (including references); mature research contributions, system papers, evaluations, datasets, methods, or theoretical frameworks." },
+      { "title": "Short / work-in-progress papers", "text": "up to 4 pages (including references); early-stage research, preliminary results, technical explorations, prototype descriptions, or emerging ideas." },
+      { "title": "Position papers",          "text": "2–4 pages (including references); critical perspectives, conceptual arguments, design principles, or taxonomies." },
+      { "title": "Demo papers",              "text": "2–4 pages (including references); demonstrations of working prototypes, interactive systems, XR applications, agentic interfaces, authoring tools, datasets, or technical showcases." }
     ],
     "review": "All submissions are peer-reviewed by the workshop organizers and program committee. Each paper receives at least two reviews. Criteria: relevance to agentic XR, originality, clarity, methodological soundness, technical feasibility, and potential to stimulate discussion.",
     "publication": "Each accepted workshop paper is included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to the final ISMAR workshop publication policy, registration requirements, and camera-ready guidelines."
