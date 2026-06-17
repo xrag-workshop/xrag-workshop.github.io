@@ -19,8 +19,8 @@
     { "label": "Home",        "href": "#home" },
     { "label": "About",       "href": "#about" },
     { "label": "Call",        "href": "#cfp" },
-    { "label": "Dates",       "href": "#dates" },
     { "label": "Submission",  "href": "#submission" },
+    { "label": "Dates",       "href": "#dates" },
     { "label": "Program",     "href": "#program" },
     { "label": "Organizers",  "href": "#organizers" },
     { "label": "Committee",   "href": "#committee" },
@@ -110,7 +110,7 @@
   "submission": {
     "kicker": "Submission",
     "title": "How to submit",
-    "format": "Submissions must follow the IEEE Computer Society VGTC conference format and the ISMAR formatting requirements. Submissions are single-blind unless ISMAR's official policy says otherwise; please follow the ISMAR 2026 instructions for authors.",
+    "format": "Submissions must follow the IEEE Computer Society VGTC conference format and the ISMAR formatting requirements. Submissions are double-blind; please follow the ISMAR 2026 instructions for authors.",
     "url": "https://easychair.org/my/conference?conf=xrag26",
     "urlLabel": "Submissions are managed through EasyChair. Click the button below to open the submission portal.",
     "templates": [
@@ -261,7 +261,8 @@
       { "name": "Bianca Maria Deconcini",  "affiliation": "University of Turin, Italy" },
       { "name": "Antonio Pietro Ugo Fleres","affiliation": "University of Messina, Italy" },
       { "name": "Francesco Rusin",         "affiliation": "University of Trieste, Italy" },
-      { "name": "Yuri Gardinazzi",         "affiliation": "University of Trieste, Italy" }
+      { "name": "Yuri Gardinazzi",         "affiliation": "University of Trieste, Italy" },
+      { "name": "Raghu Gollapudi",         "affiliation": "Fiserv, USA"}
     ]
   },
 
