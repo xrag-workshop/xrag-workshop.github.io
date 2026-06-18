@@ -383,6 +383,26 @@ section.block.ink .text-muted-ink { color: rgba(255, 246, 229, 0.7) !important; 
 }
 .cfp-bullets li b { color: var(--ink); font-weight: 800; }
 
+/* Springer VR best-paper announcement */
+.cfp-springer {
+  display: block;
+  margin: 0 0 24px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--line);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.cfp-springer:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+.cfp-springer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* === TIMELINE ========================================= */
 .dates-note {
   max-width: 720px;

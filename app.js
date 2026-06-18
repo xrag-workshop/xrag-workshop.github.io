@@ -93,11 +93,27 @@
   }
 
   function renderCfp(data) {
+    const cfp = data.callForPapers || {};
+
     const host = $("[data-slot='cfpCategories']");
-    if (!host || !data.callForPapers || !data.callForPapers.categories) return;
-    host.innerHTML = data.callForPapers.categories.map(c =>
-      `<li><b>${escapeHtml(c.title)}</b> — ${escapeHtml(c.text)}</li>`
-    ).join("");
+    if (host && cfp.categories) {
+      host.innerHTML = cfp.categories.map(c =>
+        `<li><b>${escapeHtml(c.title)}</b> — ${escapeHtml(c.text)}</li>`
+      ).join("");
+    }
+
+    // Springer VR best-paper announcement banner
+    const springer = $("[data-slot='cfpSpringer']");
+    if (springer) {
+      if (cfp.springerImage) {
+        const safe = cfp.springerImage.split("/").map(encodeURIComponent).join("/");
+        springer.innerHTML =
+          `<img src="${escapeHtml(safe)}" alt="${escapeHtml(cfp.springerAlt || "")}"
+                loading="lazy" onerror="this.closest('.cfp-springer').remove()">`;
+      } else {
+        springer.remove();
+      }
+    }
   }
 
   function renderDates(data) {

@@ -17,14 +17,12 @@
 
   "nav": [
     { "label": "Home",        "href": "#home" },
-    { "label": "About",       "href": "#about" },
     { "label": "Call",        "href": "#cfp" },
     { "label": "Submission",  "href": "#submission" },
     { "label": "Dates",       "href": "#dates" },
     { "label": "Program",     "href": "#program" },
     { "label": "Organizers",  "href": "#organizers" },
-    { "label": "Committee",   "href": "#committee" },
-    { "label": "Contact",     "href": "#contact" }
+    { "label": "Committee",   "href": "#committee" }
   ],
 
   "hero": {
@@ -91,7 +89,10 @@
       { "title": "Demo papers",              "text": "2–4 pages (including references); demonstrations of working prototypes, interactive systems, XR applications, agentic interfaces, authoring tools, datasets, or technical showcases." }
     ],
     "review": "All submissions are peer-reviewed by the workshop organizers and program committee. Each paper receives at least two reviews. Criteria: relevance to agentic XR, originality, clarity, methodological soundness, technical feasibility, and potential to stimulate discussion.",
-    "publication": "Each accepted workshop paper is included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to the final ISMAR workshop publication policy, registration requirements, and camera-ready guidelines."
+    "publication": "Each accepted workshop paper is included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to the final ISMAR workshop publication policy, registration requirements, and camera-ready guidelines.",
+    "springerImage": "assets/xrag_springer_vr.png",
+    "springerAlt": "Best Papers Invitation — selected accepted papers of XRAG '26 will be invited to submit an extended version to the Springer journal Virtual Reality.",
+    "springerUrl": "https://link.springer.com/journal/10055"
   },
 
   "importantDates": {

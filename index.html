@@ -61,8 +61,8 @@
         </div>
       </section>
 
-      <!-- ============ ABOUT ============ -->
-      <section id="about" class="block paper">
+      <!-- ============ ABOUT (part of Home) ============ -->
+      <section id="about" class="block paper" aria-label="About the workshop">
         <div class="container-xxl">
           <div class="section-head text-center mx-auto mb-4 mb-md-5">
             <p class="section-kicker" data-bind="about.kicker"></p>
@@ -92,6 +92,11 @@
             <div class="col-lg-9 col-xl-8 cfp-simple">
 
               <h2 class="cfp-h" data-bind="callForPapers.title2">Call for Papers</h2>
+
+              <!-- Best-paper / Springer VR announcement -->
+              <a class="cfp-springer" data-slot="cfpSpringer"
+                 data-bind-attr="href:callForPapers.springerUrl" target="_blank" rel="noopener"></a>
+
               <p data-bind="callForPapers.lead"></p>
               <ul class="cfp-bullets" data-slot="cfpCategories"></ul>
 
@@ -181,6 +186,17 @@
             <p class="lead text-muted-ink" data-bind="organizers.intro"></p>
           </div>
           <div class="row g-3 g-md-4" data-slot="organizers"></div>
+
+          <!-- Main contact (moved here from the former Contact section) -->
+          <div class="row justify-content-center mt-4 mt-md-5">
+            <div class="col-md-9 col-lg-7">
+              <div class="contact-card text-center">
+                <p class="section-kicker mb-2" data-bind="contact.kicker">Contact</p>
+                <p class="mb-2 text-muted-ink" data-bind="contact.text"></p>
+                <a class="contact-email" data-bind-attr="href:contact.emailHref" data-bind="contact.email"></a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -211,24 +227,6 @@
         </div>
       </section>
 
-      <!-- ============ CONTACT ============ -->
-      <section id="contact" class="block ink">
-        <div class="container-xxl">
-          <div class="section-head text-center mx-auto mb-4">
-            <p class="section-kicker" data-bind="contact.kicker"></p>
-            <h2 class="display-5 fw-black" data-bind="contact.title"></h2>
-            <p class="lead" data-bind="contact.text"></p>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8 col-lg-6">
-              <div class="contact-card text-center">
-                <p class="small mb-1 text-muted-ink">Workshop chairs</p>
-                <a class="contact-email" data-bind-attr="href:contact.emailHref" data-bind="contact.email"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer class="footer">
