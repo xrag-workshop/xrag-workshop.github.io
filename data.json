@@ -90,6 +90,9 @@
     ],
     "review": "All submissions are peer-reviewed by the workshop organizers and program committee. Each paper receives at least two reviews. Criteria: relevance to agentic XR, originality, clarity, methodological soundness, technical feasibility, and potential to stimulate discussion.",
     "publication": "Each accepted workshop paper is included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to the final ISMAR workshop publication policy, registration requirements, and camera-ready guidelines.",
+    "springerBadge": "News",
+    "springerTitle": "Best Papers Invitation: XRAG '26 → Springer Virtual Reality",
+    "springerText": "We are happy to announce that selected accepted papers of XRAG '26 will be officially invited to submit an extended full version to the Springer journal Virtual Reality (Q1, H-Index 84, SJR 2025: 1.037).",
     "springerImage": "assets/xrag_springer_vr.png",
     "springerAlt": "Best Papers Invitation — selected accepted papers of XRAG '26 will be invited to submit an extended version to the Springer journal Virtual Reality.",
     "springerUrl": "https://link.springer.com/journal/10055"
