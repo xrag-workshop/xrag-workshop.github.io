@@ -105,7 +105,7 @@
     "items": [
       { "date": "July 5, 2026",     "title": "Paper Submission Deadline",   "text": "Submit your paper via EasyChair before this date." },
       { "date": "July 17, 2026",    "title": "Author Notification",         "text": "Acceptance decisions will be communicated to authors." },
-      { "date": "July 31, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
+      { "date": "July 29, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
       { "date": "Oct 5 or 6, 2026", "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy." },
       { "date": "Oct 5–9, 2026",    "title": "IEEE ISMAR 2026 Conference",  "text": "Main conference in Bari, Italy." }
     ]
