@@ -523,9 +523,32 @@ section.block.ink .text-muted-ink { color: rgba(255, 246, 229, 0.7) !important; 
 .program-list h3   { margin: 0; font-size: 16.5px; }
 .program-list p    { margin: 4px 0 0; color: var(--ink-soft); font-size: 14.5px; }
 
+.program-list .program-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--red-deep);
+  text-decoration: none;
+}
+.program-list .program-link:hover { text-decoration: underline; }
+
 @media (max-width: 575.98px) {
   .program-list article { grid-template-columns: 70px 1fr; padding: 14px 16px; }
 }
+
+/* === KEYNOTE SUB-PAGE ================================= */
+.back-link {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-weight: 800;
+  color: var(--blue-deep);
+  text-decoration: none;
+}
+.back-link:hover { color: var(--red-deep); text-decoration: underline; }
+
+.keynote-copy p { color: var(--ink-soft); font-size: 15.5px; }
+.keynote-copy p:last-child { margin-bottom: 0; }
 
 /* === PEOPLE =========================================== */
 .person {

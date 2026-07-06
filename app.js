@@ -40,9 +40,13 @@
   function renderNav(data) {
     const host = $("[data-slot='nav']");
     if (!host || !data.nav) return;
-    host.innerHTML = data.nav.map(item =>
-      `<li class="nav-item"><a class="nav-link" href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a></li>`
-    ).join("");
+    // On sub-pages (e.g. keynote.html) <body data-nav-root="index.html">
+    // makes "#section" links point back to the home page sections.
+    const navRoot = document.body.getAttribute("data-nav-root") || "";
+    host.innerHTML = data.nav.map(item => {
+      const href = item.href.startsWith("#") ? navRoot + item.href : item.href;
+      return `<li class="nav-item"><a class="nav-link" href="${escapeHtml(href)}">${escapeHtml(item.label)}</a></li>`;
+    }).join("");
   }
 
   function renderSnapshot(data) {
@@ -155,14 +159,45 @@
   function renderProgram(data) {
     const host = $("[data-slot='program']");
     if (!host || !data.program || !data.program.items) return;
-    host.innerHTML = data.program.items.map(it => `
+    host.innerHTML = data.program.items.map(it => {
+      const link = it.link
+        ? `<a class="program-link" href="${escapeHtml(it.link)}">${escapeHtml(it.linkLabel || "More details →")}</a>`
+        : "";
+      return `
       <article>
         <time>${escapeHtml(it.time)}</time>
         <div>
           <h3>${escapeHtml(it.title)}</h3>
           <p>${escapeHtml(it.text || "")}</p>
+          ${link}
         </div>
-      </article>`).join("");
+      </article>`;
+    }).join("");
+  }
+
+  // Keynote sub-page (keynote.html): scalar fields are covered by
+  // data-bind / data-bind-attr; this fills the multi-paragraph slots.
+  function renderKeynote(data) {
+    const k = data.keynote || {};
+    const paras = arr => (arr || []).map(p => `<p>${escapeHtml(p)}</p>`).join("");
+
+    const abs = $("[data-slot='keynoteAbstract']");
+    if (abs) abs.innerHTML = paras(k.talk && k.talk.abstract);
+
+    const bio = $("[data-slot='keynoteBio']");
+    if (bio) bio.innerHTML = paras(k.bio);
+
+    const photo = $("[data-slot='keynotePhoto']");
+    if (photo) {
+      if (k.speaker && k.speaker.image) {
+        const safe = k.speaker.image.split("/").map(encodeURIComponent).join("/");
+        photo.innerHTML = `<img src="${escapeHtml(safe)}" alt="${escapeHtml(k.speaker.name || "")}" onerror="this.style.display='none'">`;
+      } else {
+        photo.innerHTML = "";
+      }
+    }
+
+    if ((abs || bio) && k.pageTitle) document.title = k.pageTitle;
   }
 
   function renderPeople(slot, members) {
@@ -264,7 +299,8 @@
   }
 
   function setupScrollSpy() {
-    const links = $$(".navbar-nav .nav-link");
+    const links = $$(".navbar-nav .nav-link")
+      .filter(a => (a.getAttribute("href") || "").startsWith("#"));
     if (!links.length) return;
     const sections = links
       .map(a => document.querySelector(a.getAttribute("href")))
@@ -312,6 +348,7 @@
     renderDates(data);
     renderSubmission(data);
     renderProgram(data);
+    renderKeynote(data);
     renderPeople("organizers", data.organizers && data.organizers.members);
     renderCommittee(data);
     renderSponsors(data);
