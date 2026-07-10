@@ -134,7 +134,7 @@
     "intro": "XRAG '26 is a half-day in-person, highly interactive workshop combining classic research presentations with structured collaborative activities. The agenda is preliminary and may evolve with the number of accepted papers and final ISMAR scheduling.",
     "items": [
       { "time": "09:00–09:10", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
-      { "time": "09:10–09:50", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "Confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Past President of EuroXR, on extended reality and intelligent immersive systems.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
+      { "time": "09:10–09:50", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
       { "time": "09:50–11:30", "title": "Accepted paper presentations", "text": "6–8 minute talks (8–10 if fewer than 10 papers accepted), followed by clustered discussion." },
       { "time": "11:30–11:45", "title": "Break",                        "text": "Informal networking and preparation for the interactive sessions." },
       { "time": "11:45–12:15", "title": "Moderated thematic discussion","text": "Discuss key challenges around agent capabilities, user control, failure recovery, safety, and evaluation." },
@@ -152,25 +152,31 @@
     "speaker": {
       "name": "Marco Sacco",
       "role": "Keynote Speaker",
-      "tagline": "Research Director at CNR-STIIMA · Past President of EuroXR (2015–2021)",
-      "affiliation": "CNR-STIIMA — Institute of Intelligent Industrial Technologies and Systems for Advanced Manufacturing, National Research Council of Italy, Lecco",
+      "tagline": "Research Director at CNR-STIIMA · Vice President of EuroXR · Board Member of the Virtual World Association",
+      "affiliation": "CNR-STIIMA — Head of the Lecco branch office (\"Human-Centered Living Environment\"), National Research Council of Italy",
       "email": "marco.sacco@stiima.cnr.it",
       "website": "https://www.stiima.cnr.it/ricercatori/marco-sacco/",
       "websiteLabel": "CNR-STIIMA profile →",
-      "image": "assets/SACCO-MARCO.jpg"
+      "image": "assets/keynote/SACCO-MARCO.jpg"
     },
     "talk": {
       "kicker": "Talk",
-      "title": "TBA",
+      "title": "AI and XR: how the knowledge is used for customisation",
       "abstract": [
-        "TBA"
+        "In the era of Artificial Intelligence and Virtual Worlds capable of almost anything, can we truly consider the knowledge embedded in digital tools a driver for personalizing products and services? Can these technologies become pivotal in fostering inclusion and enhancing human well-being?",
+        "In a landscape defined by increasingly rapid technological, economic, and social transformations, adaptability has emerged as a strategic competency — not only for individuals but also for the tools they use.",
+        "This keynote explores how digital environments — and virtual environments in particular — can be personalized to suit the context, the task, and the user (including their specific needs) through the use of knowledge-based AI. Drawing on real-world examples from the manufacturing and healthcare sectors, as well as field experiences and insights, the presentation aims to outline a potential path for future development.",
+        "A brief overview of national and European initiatives will round out the picture of the possibilities that AI and XR can offer."
       ]
     },
     "bioKicker": "Biography",
     "bio": [
-      "Marco Sacco is Research Director (Dirigente di Ricerca) at CNR-STIIMA, the Institute of Intelligent Industrial Technologies and Systems for Advanced Manufacturing of the National Research Council of Italy, where he manages the institute's Lecco site and serves on the steering committee of the Bi-Rex consortium on Big Data and Industry 4.0.",
-      "A researcher at CNR since 2001 and a graduate in Information Science, he formerly headed the Engineering and Virtual Applications group and directed the Virtual and Augmented Reality Laboratory. From 2015 to 2021 he was President of EuroXR, the European Association for Extended Realities.",
-      "His research interests span virtual and augmented reality, simulation, the semantic web and ontologies, user-centred design, Industry 4.0, rehabilitation, living environments, and health and wellness. He coordinates numerous EU, national, and regional research projects and serves as an evaluator for the European Commission (DG-RTD, DG-CONNECT) and for Italian bodies including MISE, the Marche Region, and the Autonomous Province of Trento."
+    "Dr. Marco Sacco, Research Director, Head of the CNR-STIIMA branch office in Lecco (''Human-Centered Living Environment''). Vice President of EuroXR (European Association for XR Technologies) with responsibility for European Union issues and collaborations. EuroXR is the oldest European association on XR technologies (funded in 2010) and the annual conference is at its 23rd edition.",
+    "Member of the Board of the VWA (Virtual World Association) representing the National Council of Italy. The association has entered into a partnership with the European Commission to improve and promote immersive technologies, extended reality, digital twins, virtual collaborative spaces, interoperability, and digital skills.",
+    "His experience (since 1994) concerns XR technologies (VR/MR/AR) and AI applied to both the manufacturinge and the health and well-being sectors.",
+    "Cluster Manager for the TechforLife Foundation (Lombardy Region Technology Cluster for Living Environment Technologies).",
+    "He has coordinated European (two of the largest EU projects under the 6th and 7th Framework Programmes) and national/regional projects. He has served as an expert on several R&D project evaluation committees, both at the European and national/regional levels.",
+    "He has authored over 180 publications, including articles in academic journals and conference proceedings."  
     ]
   },
 
