@@ -106,18 +106,27 @@
       ).join("");
     }
 
-    // Springer VR best-paper announcement banner
-    const springer = $("[data-slot='cfpSpringer']");
-    if (springer) {
-      if (cfp.springerImage) {
-        const safe = cfp.springerImage.split("/").map(encodeURIComponent).join("/");
-        springer.innerHTML =
-          `<img src="${escapeHtml(safe)}" alt="${escapeHtml(cfp.springerAlt || "")}"
-                loading="lazy" onerror="this.closest('.cfp-springer').remove()">`;
-      } else {
-        springer.remove();
-      }
-    }
+    renderNews(cfp);
+  }
+
+  function renderNews(cfp) {
+    const host = $("[data-slot='newsList']");
+    if (!host || !cfp.news || !cfp.news.length) return;
+    host.innerHTML = cfp.news.map(item => {
+      const link = item.image
+        ? `<a class="cfp-springer mt-3" href="${escapeHtml(item.url || "#")}" target="_blank" rel="noopener">
+             <img src="${escapeHtml(item.image.split("/").map(encodeURIComponent).join("/"))}"
+                  alt="${escapeHtml(item.alt || "")}" loading="lazy" onerror="this.closest('.cfp-springer').remove()">
+           </a>`
+        : "";
+      return `
+        <div class="cfp-news mt-5">
+          <p class="news-badge">${escapeHtml(item.badge || "News")}</p>
+          <h3 class="news-title">${escapeHtml(item.title)}</h3>
+          <p class="news-text text-muted-ink">${escapeHtml(item.text)}</p>
+          ${link}
+        </div>`;
+    }).join("");
   }
 
   function renderDates(data) {

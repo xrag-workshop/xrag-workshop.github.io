@@ -90,12 +90,21 @@
     ],
     "review": "All submissions are peer-reviewed by the workshop organizers and program committee. Each paper receives at least two reviews. Criteria: relevance to agentic XR, originality, clarity, methodological soundness, technical feasibility, and potential to stimulate discussion.",
     "publication": "Each accepted workshop paper is included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to the final ISMAR workshop publication policy, registration requirements, and camera-ready guidelines.",
-    "springerBadge": "News",
-    "springerTitle": "Best Papers Invitation: XRAG '26 → Springer Virtual Reality",
-    "springerText": "We are happy to announce that selected accepted papers of XRAG '26 will be officially invited to submit an extended full version to the Springer journal Virtual Reality (Q1, H-Index 84, SJR 2025: 1.037).",
-    "springerImage": "assets/xrag_springer_vr.png",
-    "springerAlt": "Best Papers Invitation — selected accepted papers of XRAG '26 will be invited to submit an extended version to the Springer journal Virtual Reality.",
-    "springerUrl": "https://link.springer.com/journal/10055"
+    "news": [
+      {
+        "badge": "News",
+        "title": "14 out of 20 submissions accepted for publication!",
+        "text": "We are excited to announce that 14 out of 20 submissions to XRAG '26 have been accepted for publication. Congratulations to all authors! More details on the final program will be announced soon."
+      },
+      {
+        "badge": "News",
+        "title": "Best Papers Invitation: XRAG '26 → Springer Virtual Reality",
+        "text": "We are happy to announce that selected accepted papers of XRAG '26 will be officially invited to submit an extended full version to the Springer journal Virtual Reality (Q1, H-Index 84, SJR 2025: 1.037).",
+        "image": "assets/xrag_springer_vr.png",
+        "alt": "Best Papers Invitation — selected accepted papers of XRAG '26 will be invited to submit an extended version to the Springer journal Virtual Reality.",
+        "url": "https://link.springer.com/journal/10055"
+      }
+    ]
   },
 
   "importantDates": {
@@ -135,12 +144,18 @@
     "items": [
       { "time": "09:00–09:10", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
       { "time": "09:10–09:50", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
-      { "time": "09:50–11:30", "title": "Accepted paper presentations", "text": "6–8 minute talks (8–10 if fewer than 10 papers accepted), followed by clustered discussion." },
-      { "time": "11:30–11:45", "title": "Break",                        "text": "Informal networking and preparation for the interactive sessions." },
-      { "time": "11:45–12:15", "title": "Moderated thematic discussion","text": "Discuss key challenges around agent capabilities, user control, failure recovery, safety, and evaluation." },
-      { "time": "12:15–12:25", "title": "Design clinic briefing",       "text": "Introduce the Agentic XR Scenario Canvas and organize participants into working groups." },
-      { "time": "12:25–13:05", "title": "Hands-on design clinic",       "text": "Develop concrete agentic XR scenarios across selected application domains." },
-      { "time": "13:05–13:25", "title": "Roadmap-building session",     "text": "Synthesize group outputs into open challenges, design principles, benchmark needs, and evaluation requirements." },
+      { "time": "09:50–11:50", "title": "Accepted paper presentations", "text": "7 minute talks, followed by clustered discussion." },
+      { "time": "11:50–12:00", "title": "Break",                        "text": "Informal networking and preparation for the interactive sessions." },
+      {
+      "time": "12:00–12:25",
+      "title": "Thematic Discussion and Design Clinic Briefing",
+      "text": "Discuss key challenges around agent capabilities, user control, failure recovery, safety, and evaluation, then introduce the Agentic XR Scenario Canvas and organize participants into working groups."
+      },
+      {
+        "time": "12:25–13:20",
+        "title": "Hands-on Design Clinic and Roadmap Building",
+        "text": "Develop concrete agentic XR scenarios across selected application domains and synthesize the group outputs into open challenges, design principles, benchmark needs, and evaluation requirements."
+      },
       { "time": "13:25–13:30", "title": "Closing and next steps",       "text": "Key takeaways, post-workshop outputs, and community follow-up." }
     ]
   },
@@ -257,19 +272,7 @@
     "title": "Program Committee",
     "intro": "An international and interdisciplinary committee covering Extended Reality, Artificial Intelligence, human-agent interaction, computer vision, wearable systems, and human-centered systems. Confirmed members will be explicitly marked on this page.",
     "members": [
-      { "name": "Ilaria Tiddi",            "affiliation": "Vrije Universiteit Amsterdam, The Netherlands" },
-      { "name": "Jennifer Renoux",         "affiliation": "Örebro University, Sweden" },
-      { "name": "Imke van Heerden",        "affiliation": "King's College London, United Kingdom" },
-      { "name": "Salvatore Anzalone",      "affiliation": "Université Paris 8, France" },
-      { "name": "Sanyam Jain",             "affiliation": "Aarhus University, Denmark" },
-      { "name": "Luís Espírito Santo",     "affiliation": "University of Coimbra, Portugal / Vrije Universiteit Brussel, Belgium" },
-      { "name": "Riccardo De Benedictis",  "affiliation": "CNR — National Research Council of Italy, Italy" },
       { "name": "Cataldo Musto",           "affiliation": "University of Bari, Italy" },
-      { "name": "Giuseppe Spillo",         "affiliation": "University of Bari, Italy" },
-      { "name": "Giovanna Castellano",     "affiliation": "University of Bari, Italy" },
-      { "name": "Gennaro Vessio",          "affiliation": "University of Bari, Italy" },
-      { "name": "Pasquale Cascarano",      "affiliation": "University of Bologna, Italy" },
-      { "name": "Giacomo Vallasciani",     "affiliation": "University of Bologna, Italy" },
       { "name": "Giorgio Franceschelli",   "affiliation": "University of Bologna, Italy" },
       { "name": "Angelo Croatti",          "affiliation": "AUSL Romagna, Italy" },
       { "name": "Paolo Baldini",           "affiliation": "University of Bologna, Italy" },
@@ -282,7 +285,6 @@
       { "name": "Primo Zingaretti",        "affiliation": "Università Politecnica delle Marche, Italy" },
       { "name": "Adriano Mancini",         "affiliation": "Università Politecnica delle Marche, Italy" },
       { "name": "Paolo Sernani",           "affiliation": "University of Macerata, Italy" },
-      { "name": "Alessandro Cacciatore",   "affiliation": "University of Macerata, Italy" },
       { "name": "Riccardo Rosati",         "affiliation": "University of Macerata, Italy" },
       { "name": "Mariana Buenestado Fernández", "affiliation": "Department of Education, University of Córdoba, Spain" },
       { "name": "María del Mar Ucles Torrente", "affiliation": "Department of Education, University of Córdoba, Spain" },
@@ -292,14 +294,11 @@
       { "name": "Rafael Berral Soler",          "affiliation": "Department of Computer Science and AI, University of Córdoba, Spain" },
       { "name": "María Isabel Jiménez Velasco", "affiliation": "Department of Computer Science and AI, University of Córdoba, Spain" },
       { "name": "Andrea Ubaldi",           "affiliation": "Università Cattolica del Sacro Cuore, Italy" },
-      { "name": "Roberto Gatta",           "affiliation": "Università Cattolica del Sacro Cuore, Italy" },
       { "name": "Gilda Manfredi",          "affiliation": "University of Basilicata, Italy" },
       { "name": "Lucia Migliorelli",       "affiliation": "University of Teramo, Italy" },
       { "name": "Andrea Antonio Cantone",  "affiliation": "University of Salerno, Italy" },
-      { "name": "Bianca Maria Deconcini",  "affiliation": "University of Turin, Italy" },
-      { "name": "Antonio Pietro Ugo Fleres","affiliation": "University of Messina, Italy" },
-      { "name": "Francesco Rusin",         "affiliation": "University of Trieste, Italy" },
       { "name": "Yuri Gardinazzi",         "affiliation": "University of Trieste, Italy" },
+      { "name": "Angelo Geninatti Cossatin", "affiliation": "Università degli Studi di Torino, Italy"},
       { "name": "Raghu Gollapudi",         "affiliation": "Fiserv, USA"},
       { "name": "Jeevarani Radhakrishnan",         "affiliation": "Amazon, USA"},      
       { "name": "Lokeswari Vejju",         "affiliation": "Amazon Web Services, USA"},

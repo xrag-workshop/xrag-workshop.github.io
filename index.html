@@ -107,14 +107,8 @@
               <p class="mt-4 text-muted-ink small" data-bind="callForPapers.review"></p>
               <p class="text-muted-ink small" data-bind="callForPapers.publication"></p>
 
-              <!-- News: Best-paper / Springer VR announcement -->
-              <div class="cfp-news mt-5">
-                <p class="news-badge" data-bind="callForPapers.springerBadge">News</p>
-                <h3 class="news-title" data-bind="callForPapers.springerTitle"></h3>
-                <p class="news-text text-muted-ink" data-bind="callForPapers.springerText"></p>
-                <a class="cfp-springer mt-3" data-slot="cfpSpringer"
-                   data-bind-attr="href:callForPapers.springerUrl" target="_blank" rel="noopener"></a>
-              </div>
+              <!-- News: submission outcomes / announcements -->
+              <div data-slot="newsList"></div>
 
             </div>
           </div>
