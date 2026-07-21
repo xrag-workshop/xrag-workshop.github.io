@@ -209,6 +209,21 @@
     if ((abs || bio) && k.pageTitle) document.title = k.pageTitle;
   }
 
+  // Accepted papers sub-page (accepted-papers.html)
+  function renderAcceptedPapers(data) {
+    const ap = data.acceptedPapers || {};
+    const host = $("[data-slot='acceptedPapers']");
+    if (!host) return;
+
+    host.innerHTML = (ap.items || []).map(p => `
+      <article>
+        <span class="paper-id">#${escapeHtml(p.id)}</span>
+        <h3>${escapeHtml(p.title)}</h3>
+      </article>`).join("");
+
+    if (ap.pageTitle) document.title = ap.pageTitle;
+  }
+
   function renderPeople(slot, members) {
     const host = $(`[data-slot='${slot}']`);
     if (!host) return;
@@ -358,6 +373,7 @@
     renderSubmission(data);
     renderProgram(data);
     renderKeynote(data);
+    renderAcceptedPapers(data);
     renderPeople("organizers", data.organizers && data.organizers.members);
     renderCommittee(data);
     renderSponsors(data);

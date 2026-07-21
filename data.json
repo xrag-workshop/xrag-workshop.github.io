@@ -114,7 +114,7 @@
     "items": [
       { "date": "July 10, 2026",     "title": "Paper Submission Deadline",   "text": "Submit your paper via EasyChair before this date." },
       { "date": "July 17, 2026",    "title": "Author Notification",         "text": "Acceptance decisions will be communicated to authors." },
-      { "date": "July 29, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
+      { "date": "July 31, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
       { "date": "Oct 5 or 6, 2026", "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy." }
     ]
   },
@@ -144,7 +144,7 @@
     "items": [
       { "time": "09:00–09:10", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
       { "time": "09:10–09:50", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
-      { "time": "09:50–11:50", "title": "Accepted paper presentations", "text": "7 minute talks, followed by clustered discussion." },
+      { "time": "09:50–11:50", "title": "Accepted paper presentations", "text": "7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       { "time": "11:50–12:00", "title": "Break",                        "text": "Informal networking and preparation for the interactive sessions." },
       {
       "time": "12:00–12:25",
@@ -191,7 +191,31 @@
     "His experience (since 1994) concerns XR technologies (VR/MR/AR) and AI applied to both the manufacturinge and the health and well-being sectors.",
     "Cluster Manager for the TechforLife Foundation (Lombardy Region Technology Cluster for Living Environment Technologies).",
     "He has coordinated European (two of the largest EU projects under the 6th and 7th Framework Programmes) and national/regional projects. He has served as an expert on several R&D project evaluation committees, both at the European and national/regional levels.",
-    "He has authored over 180 publications, including articles in academic journals and conference proceedings."  
+    "He has authored over 180 publications, including articles in academic journals and conference proceedings."
+    ]
+  },
+
+  "acceptedPapers": {
+    "pageTitle": "XRAG '26 — Accepted Papers",
+    "kicker": "Accepted Papers",
+    "title": "Accepted Papers",
+    "backLabel": "← Back to program",
+    "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! Author lists, abstracts, and the final presentation schedule will be added soon.",
+    "items": [
+      { "id": 1,  "title": "Real-Time Collaborative Authoring of Virtual Environment Using Natural Language and AI" },
+      { "id": 2,  "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy" },
+      { "id": 3,  "title": "Digital Genius Loci: A Modality-Agnostic LLM Backend with Persistent Memory for Immersive and Embodied Environments" },
+      { "id": 4,  "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo" },
+      { "id": 5,  "title": "Agentic XR: Closing the Loop Among Humans, AI Agents, and Extended Reality" },
+      { "id": 6,  "title": "ArgumentMapper: Spatial Contracts for Agent-Generated Argument Exploration in Mixed Reality" },
+      { "id": 7, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes" },
+      { "id": 8, "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR" },
+      { "id": 9, "title": "InsAIde Out: Towards Emotion-Aware Agentic 3D World-Model Renderers for Adaptive Immersive Experiences" },
+      { "id": 10, "title": "Orchestrating Generative AI in Immersive Learning Environments for Students with Specific Learning Disorders" },
+      { "id": 11, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage" },
+      { "id": 12, "title": "MARE: A Mixed Reality Platform for Manual-Based Assembly Guidance with Multimodal Large Language Models" },
+      { "id": 13, "title": "Integrating agentic AI into Immersive XR Experiences during Emergency Response Activities" },
+      { "id": 14, "title": "A Modular Camera-Agnostic RGB-D Pipeline for Rapid Photorealistic Full-Body Avatar Generation in XR" }
     ]
   },
 

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="XRAG '26 accepted papers.">
+    <title>XRAG '26 — Accepted Papers</title>
+
+    <link rel="icon"          type="image/png" href="assets/icon.png">
+    <link rel="apple-touch-icon"                href="assets/icon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-nav-root="index.html">
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar navbar-expand-lg sticky-top site-header">
+      <div class="container-xxl">
+        <a class="ismar-logo" href="https://www.ieeeismar.net/2026/" target="_blank" rel="noopener" aria-label="IEEE ISMAR 2026">
+          <img src="assets/ismar2026.png" alt="ISMAR 2026">
+        </a>
+        <a class="navbar-brand brand" href="index.html#home">
+          <img src="assets/icon.png" alt="" class="brand-icon" aria-hidden="true">
+          <span class="brand-mark" data-bind="workshop.shortName">XRAG '26</span>
+          <span class="brand-text d-none d-md-inline" data-bind="workshop.subtitle">Agentic AI for Extended Reality</span>
+        </a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#siteNav"
+                aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="siteNav">
+          <ul class="navbar-nav align-items-lg-center gap-lg-2" data-slot="nav"></ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- ============ ACCEPTED PAPERS ============ -->
+      <section id="accepted-papers" class="block paper">
+        <div class="container-xxl">
+          <a class="back-link" href="index.html#program" data-bind="acceptedPapers.backLabel">← Back to program</a>
+
+          <div class="section-head text-center mx-auto mb-4 mb-md-5">
+            <p class="section-kicker" data-bind="acceptedPapers.kicker">Accepted Papers</p>
+            <h1 class="display-5 fw-black" data-bind="acceptedPapers.title"></h1>
+            <p class="lead text-muted-ink" data-bind="acceptedPapers.intro"></p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <div class="papers-list d-grid gap-2" data-slot="acceptedPapers"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-xxl d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <p class="mb-0" data-bind="footer.text"></p>
+        <div class="d-flex flex-wrap gap-3" data-slot="footerLinks"></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

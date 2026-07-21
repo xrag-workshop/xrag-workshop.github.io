@@ -537,6 +537,24 @@ section.block.ink .text-muted-ink { color: rgba(255, 246, 229, 0.7) !important; 
   .program-list article { grid-template-columns: 70px 1fr; padding: 14px 16px; }
 }
 
+/* === ACCEPTED PAPERS =================================== */
+.papers-list article {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  align-items: baseline;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+.papers-list .paper-id { font-weight: 900; color: var(--blue-deep); }
+.papers-list h3 { margin: 0; font-size: 16.5px; }
+
+@media (max-width: 575.98px) {
+  .papers-list article { grid-template-columns: 40px 1fr; padding: 14px 16px; }
+}
+
 /* === KEYNOTE SUB-PAGE ================================= */
 .back-link {
   display: inline-block;
