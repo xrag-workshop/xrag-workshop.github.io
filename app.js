@@ -119,11 +119,15 @@
                   alt="${escapeHtml(item.alt || "")}" loading="lazy" onerror="this.closest('.cfp-springer').remove()">
            </a>`
         : "";
+      const plainLink = !item.image && item.url
+        ? `<a class="news-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.linkLabel || "More details →")}</a>`
+        : "";
       return `
         <div class="cfp-news mt-5">
           <p class="news-badge">${escapeHtml(item.badge || "News")}</p>
           <h3 class="news-title">${escapeHtml(item.title)}</h3>
           <p class="news-text text-muted-ink">${escapeHtml(item.text)}</p>
+          ${plainLink}
           ${link}
         </div>`;
     }).join("");

@@ -432,6 +432,15 @@ section.block.ink .text-muted-ink { color: rgba(255, 246, 229, 0.7) !important; 
   margin: 0;
   font-size: 16px;
 }
+.news-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--red-deep);
+  text-decoration: none;
+}
+.news-link:hover { text-decoration: underline; }
 
 .cfp-springer {
   display: block;

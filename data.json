@@ -6,11 +6,12 @@
     "venue": "IEEE ISMAR 2026",
     "venueUrl": "https://www.ieeeismar.net/2026/",
     "location": "Bari, Italy",
-    "date": "October 5 or 6, 2026",
+    "date": "Tuesday, October 6, 2026 — Morning Session",
     "conferenceDates": "October 5–9, 2026",
     "format": "Half-day, in-person",
-    "status": "Proposal in preparation",
+    "status": "Accepted — official IEEE ISMAR 2026 workshop",
     "officialCallUrl": "https://www.ieeeismar.net/2026/call-for-workshops/",
+    "officialWorkshopsUrl": "https://www.ieeeismar.net/2026/workshops/",
     "contactEmail": "lorenzo.stacchio@unimc.it",
     "bannerImage": "assets/banner.png"
   },
@@ -26,7 +27,7 @@
   ],
 
   "hero": {
-    "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — October 5 or 6, 2026",
+    "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — Tuesday 6 October 2026, Morning Session",
     "blurb": "XRAG '26 is a focused venue for researchers, designers, practitioners, and industry experts exploring how AI agents can perceive, reason, remember, plan, and act in XR systems while keeping people in control.",
     "ctas": [
       { "label": "Call for Papers",  "href": "#cfp",        "style": "primary" },
@@ -93,6 +94,13 @@
     "news": [
       {
         "badge": "News",
+        "title": "Workshop date confirmed: Tuesday 6 October 2026, Morning Session",
+        "text": "XRAG '26 is now listed in the official IEEE ISMAR 2026 workshop program. The workshop will be held on Tuesday 6 October 2026 during the morning session, in person in Bari, Italy.",
+        "url": "https://www.ieeeismar.net/2026/workshops/",
+        "linkLabel": "See the official ISMAR 2026 workshops page →"
+      },
+      {
+        "badge": "News",
         "title": "14 out of 20 submissions accepted for publication!",
         "text": "We are excited to announce that 14 out of 20 submissions to XRAG '26 have been accepted for publication. Congratulations to all authors! More details on the final program will be announced soon."
       },
@@ -115,7 +123,7 @@
       { "date": "July 10, 2026",     "title": "Paper Submission Deadline",   "text": "Submit your paper via EasyChair before this date." },
       { "date": "July 17, 2026",    "title": "Author Notification",         "text": "Acceptance decisions will be communicated to authors." },
       { "date": "July 31, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
-      { "date": "Oct 5 or 6, 2026", "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy." }
+      { "date": "Oct 6, 2026",       "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy — Tuesday 6 October, Morning Session, as listed in the official ISMAR 2026 workshop program." }
     ]
   },
 
@@ -140,7 +148,7 @@
   "program": {
     "kicker": "Program",
     "title": "Rudimentary half-day agenda",
-    "intro": "XRAG '26 is a half-day in-person, highly interactive workshop combining classic research presentations with structured collaborative activities. The agenda is preliminary and may evolve with the number of accepted papers and final ISMAR scheduling.",
+    "intro": "XRAG '26 takes place on Tuesday 6 October 2026, morning session, as confirmed in the official ISMAR 2026 workshop program. It is a half-day in-person, highly interactive workshop combining classic research presentations with structured collaborative activities. The agenda is preliminary and may evolve with the number of accepted papers and final ISMAR scheduling.",
     "items": [
       { "time": "09:00–09:10", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
       { "time": "09:10–09:50", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
@@ -358,7 +366,8 @@
     "text": "XRAG '26 · 1st International Workshop on Agentic AI for Extended Reality · IEEE ISMAR 2026, Bari, Italy",
     "links": [
       { "label": "ISMAR 2026",          "href": "https://www.ieeeismar.net/2026/" },
-      { "label": "Workshop Call",       "href": "https://www.ieeeismar.net/2026/call-for-workshops/" }
+      { "label": "Workshop Call",       "href": "https://www.ieeeismar.net/2026/call-for-workshops/" },
+      { "label": "ISMAR 2026 Workshops", "href": "https://www.ieeeismar.net/2026/workshops/" }
     ]
   }
 }
