@@ -560,6 +560,38 @@ section.block.ink .text-muted-ink { color: rgba(255, 246, 229, 0.7) !important; 
 .papers-list .paper-id { font-weight: 900; color: var(--blue-deep); }
 .papers-list h3 { margin: 0; font-size: 16.5px; }
 
+.papers-format-note {
+  margin: 0 0 28px;
+  padding: 16px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--line);
+  color: var(--ink-soft);
+  font-size: 14.5px;
+}
+
+.paper-session + .paper-session { margin-top: 34px; }
+.paper-session-head { margin-bottom: 14px; }
+.paper-session-time {
+  margin: 0 0 4px;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--red-deep);
+}
+.paper-session-title {
+  margin: 0;
+  font-size: clamp(19px, 2.2vw, 23px);
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.paper-session-text {
+  margin: 6px 0 0;
+  font-size: 14.5px;
+  color: var(--ink-soft);
+}
+
 @media (max-width: 575.98px) {
   .papers-list article { grid-template-columns: 40px 1fr; padding: 14px 16px; }
 }

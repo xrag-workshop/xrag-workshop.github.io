@@ -152,9 +152,9 @@
     "items": [
       { "time": "08:15–08:25", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
       { "time": "08:25–09:05", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
-      { "time": "09:05–10:00", "title": "Accepted paper presentations — Session 1", "text": "First block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
+      { "time": "09:05–10:00", "title": "Accepted paper presentations — Session 1", "text": "Architectures, memory, and human–agent interaction: seven 5-minute talks back to back, then a 13-minute clustered discussion with all speakers of the block.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       { "time": "10:00–10:30", "title": "Coffee break",                 "text": "ISMAR 2026 conference coffee break — informal networking." },
-      { "time": "10:30–11:30", "title": "Accepted paper presentations — Session 2", "text": "Second block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
+      { "time": "10:30–11:30", "title": "Accepted paper presentations — Session 2", "text": "Applications and deployment: seven 5-minute talks back to back, then an 18-minute clustered discussion feeding into the XRAG Futures Panel.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       {
       "time": "11:30–12:00",
       "title": "XRAG Futures Panel — What is New and What Comes Next?",
@@ -211,22 +211,37 @@
     "kicker": "Accepted Papers",
     "title": "Accepted Papers",
     "backLabel": "← Back to program",
-    "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! Author lists, abstracts, and the final presentation schedule will be added soon.",
-    "items": [
-      { "id": 1,  "title": "Real-Time Collaborative Authoring of Virtual Environment Using Natural Language and AI" },
-      { "id": 2,  "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy" },
-      { "id": 3,  "title": "Digital Genius Loci: A Modality-Agnostic LLM Backend with Persistent Memory for Immersive and Embodied Environments" },
-      { "id": 4,  "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo" },
-      { "id": 5,  "title": "Agentic XR: Closing the Loop Among Humans, AI Agents, and Extended Reality" },
-      { "id": 6,  "title": "ArgumentMapper: Spatial Contracts for Agent-Generated Argument Exploration in Mixed Reality" },
-      { "id": 7, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes" },
-      { "id": 8, "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR" },
-      { "id": 9, "title": "InsAIde Out: Towards Emotion-Aware Agentic 3D World-Model Renderers for Adaptive Immersive Experiences" },
-      { "id": 10, "title": "Orchestrating Generative AI in Immersive Learning Environments for Students with Specific Learning Disorders" },
-      { "id": 11, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage" },
-      { "id": 12, "title": "MARE: A Mixed Reality Platform for Manual-Based Assembly Guidance with Multimodal Large Language Models" },
-      { "id": 13, "title": "Integrating agentic AI into Immersive XR Experiences during Emergency Response Activities" },
-      { "id": 14, "title": "A Modular Camera-Agnostic RGB-D Pipeline for Rapid Photorealistic Full-Body Avatar Generation in XR" }
+    "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! Papers are grouped into two thematic presentation sessions on Tuesday 6 October 2026. Author lists and abstracts will be added soon.",
+    "formatNote": "Presentation format: each paper gets a 5-minute talk with a maximum of 5 slides, back to back with no individual Q&A. Questions are collected during the session and addressed in a clustered panel discussion at the end of each block, with all speakers of that block at the front. Slides must be sent to the organizers at least 48 hours in advance so that every session runs from a single machine.",
+    "sessions": [
+      {
+        "time": "09:05–10:00",
+        "title": "Session 1 — Architectures, memory, and human–agent interaction",
+        "text": "Seven 5-minute talks on agentic architectures, memory, control, and AI-assisted creation, followed by a 13-minute clustered discussion.",
+        "items": [
+          { "id": 1, "title": "Agentic XR: Closing the Loop Among Humans, AI Agents, and Extended Reality" },
+          { "id": 2, "title": "Digital Genius Loci: A Modality-Agnostic LLM Backend with Persistent Memory for Immersive and Embodied Environments" },
+          { "id": 3, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes" },
+          { "id": 4, "title": "ArgumentMapper: Spatial Contracts for Agent-Generated Argument Exploration in Mixed Reality" },
+          { "id": 5, "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR" },
+          { "id": 6, "title": "Real-Time Collaborative Authoring of Virtual Environment Using Natural Language and AI" },
+          { "id": 7, "title": "InsAIde Out: Towards Emotion-Aware Agentic 3D World-Model Renderers for Adaptive Immersive Experiences" }
+        ]
+      },
+      {
+        "time": "10:30–11:30",
+        "title": "Session 2 — Agentic XR in the wild: applications and deployment",
+        "text": "Seven 5-minute talks on deployed and applied agentic XR across industry, emergency response, health, education, and cultural heritage, followed by an 18-minute clustered discussion that leads into the XRAG Futures Panel.",
+        "items": [
+          { "id": 8,  "title": "MARE: A Mixed Reality Platform for Manual-Based Assembly Guidance with Multimodal Large Language Models" },
+          { "id": 9,  "title": "Integrating agentic AI into Immersive XR Experiences during Emergency Response Activities" },
+          { "id": 10, "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy" },
+          { "id": 11, "title": "Orchestrating Generative AI in Immersive Learning Environments for Students with Specific Learning Disorders" },
+          { "id": 12, "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo" },
+          { "id": 13, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage" },
+          { "id": 14, "title": "A Modular Camera-Agnostic RGB-D Pipeline for Rapid Photorealistic Full-Body Avatar Generation in XR" }
+        ]
+      }
     ]
   },
 

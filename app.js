@@ -219,11 +219,26 @@
     const host = $("[data-slot='acceptedPapers']");
     if (!host) return;
 
-    host.innerHTML = (ap.items || []).map(p => `
+    const papers = items => (items || []).map(p => `
       <article>
         <span class="paper-id">#${escapeHtml(p.id)}</span>
         <h3>${escapeHtml(p.title)}</h3>
       </article>`).join("");
+
+    host.innerHTML = ap.sessions
+      ? ap.sessions.map(sess => `
+          <section class="paper-session">
+            <header class="paper-session-head">
+              <p class="paper-session-time">${escapeHtml(sess.time || "")}</p>
+              <h2 class="paper-session-title">${escapeHtml(sess.title)}</h2>
+              <p class="paper-session-text">${escapeHtml(sess.text || "")}</p>
+            </header>
+            <div class="d-grid gap-2">${papers(sess.items)}</div>
+          </section>`).join("")
+      : papers(ap.items);
+
+    const noteEl = $("[data-slot='papersFormatNote']");
+    if (noteEl && ap.formatNote) noteEl.textContent = ap.formatNote;
 
     if (ap.pageTitle) document.title = ap.pageTitle;
   }
