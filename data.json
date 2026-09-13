@@ -6,7 +6,7 @@
     "venue": "IEEE ISMAR 2026",
     "venueUrl": "https://www.ieeeismar.net/2026/",
     "location": "Bari, Italy",
-    "date": "Tuesday, October 6, 2026 — Morning Session",
+    "date": "Tuesday, October 6, 2026 — Morning Session, 08:15–13:00",
     "conferenceDates": "October 5–9, 2026",
     "format": "Half-day, in-person",
     "status": "Accepted — official IEEE ISMAR 2026 workshop",
@@ -27,7 +27,7 @@
   ],
 
   "hero": {
-    "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — Tuesday 6 October 2026, Morning Session",
+    "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — Tuesday 6 October 2026, Morning Session (08:15–13:00)",
     "blurb": "XRAG '26 is a focused venue for researchers, designers, practitioners, and industry experts exploring how AI agents can perceive, reason, remember, plan, and act in XR systems while keeping people in control.",
     "ctas": [
       { "label": "Call for Papers",  "href": "#cfp",        "style": "primary" },
@@ -95,7 +95,7 @@
       {
         "badge": "News",
         "title": "Workshop date confirmed: Tuesday 6 October 2026, Morning Session",
-        "text": "XRAG '26 is now listed in the official IEEE ISMAR 2026 workshop program. The workshop will be held on Tuesday 6 October 2026 during the morning session, in person in Bari, Italy.",
+        "text": "XRAG '26 is now listed in the official IEEE ISMAR 2026 workshop program. The workshop will be held on Tuesday 6 October 2026, 08:15–13:00, in person in Bari, Italy.",
         "url": "https://www.ieeeismar.net/2026/workshops/",
         "linkLabel": "See the official ISMAR 2026 workshops page →"
       },
@@ -123,7 +123,7 @@
       { "date": "July 10, 2026",     "title": "Paper Submission Deadline",   "text": "Submit your paper via EasyChair before this date." },
       { "date": "July 17, 2026",    "title": "Author Notification",         "text": "Acceptance decisions will be communicated to authors." },
       { "date": "July 31, 2026",    "title": "Camera-Ready Deadline",       "text": "Final, camera-ready versions due for the ISMAR 2026 Adjunct proceedings." },
-      { "date": "Oct 6, 2026",       "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy — Tuesday 6 October, Morning Session, as listed in the official ISMAR 2026 workshop program." }
+      { "date": "Oct 6, 2026",       "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy — Tuesday 6 October, Morning Session (08:15–13:00), as listed in the official ISMAR 2026 workshop program." }
     ]
   },
 
@@ -147,33 +147,26 @@
 
   "program": {
     "kicker": "Program",
-    "title": "Rudimentary half-day agenda",
-    "intro": "XRAG '26 takes place on Tuesday 6 October 2026, morning session, as confirmed in the official ISMAR 2026 workshop program. It is a half-day in-person, highly interactive workshop combining classic research presentations with structured collaborative activities. The agenda is preliminary and may evolve with the number of accepted papers and final ISMAR scheduling.",
+    "title": "Half-day agenda",
+    "intro": "XRAG '26 takes place on Tuesday 6 October 2026, morning session (08:15–13:00), as confirmed in the official ISMAR 2026 workshop program. It is a half-day in-person, highly interactive workshop combining classic research presentations with structured collaborative activities, split by the conference coffee break into a presentation block and a hands-on block. The agenda is preliminary and may still evolve with final ISMAR scheduling.",
     "items": [
-      { "time": "09:00–09:10", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
-      { "time": "09:10–09:50", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
-      { "time": "09:50–11:50", "title": "Accepted paper presentations", "text": "7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
+      { "time": "08:15–08:25", "title": "Opening and framing",          "text": "Introduce the workshop goals and activities." },
+      { "time": "08:25–09:05", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
+      { "time": "09:05–10:00", "title": "Accepted paper presentations — Session 1", "text": "First block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
+      { "time": "10:00–10:30", "title": "Coffee break",                 "text": "ISMAR 2026 conference coffee break — informal networking." },
+      { "time": "10:30–11:25", "title": "Accepted paper presentations — Session 2", "text": "Second block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       {
-        "time": "11:50–12:00",
-        "title": "Break & interactive board onboarding",
-        "text": "Informal networking and preparation for the interactive sessions. Authors and attendees can join the shared Miro board and contribute initial ideas, open challenges, and future directions."
+      "time": "11:25–11:55",
+      "title": "Thematic Discussion and Design Clinic Briefing",
+      "text": "Discuss key challenges around agent capabilities, user control, failure recovery, safety, and evaluation, then introduce the Agentic XR Scenario Canvas and organize participants into working groups."
       },
       {
-        "time": "12:00–12:35",
-        "title": "XRAG Futures Panel - What is New and What Comes Next?",
-        "text": "Authors of accepted XRAG contributions discuss what is genuinely novel in Agentic XR, which limitations remain unresolved, and which technological and human-centered developments are likely to shape the field in the coming years."
+        "time": "11:55–12:50",
+        "title": "Hands-on Design Clinic and Roadmap Building",
+        "text": "Develop concrete agentic XR scenarios across selected application domains and synthesize the group outputs into open challenges, design principles, benchmark needs, and evaluation requirements."
       },
-      {
-        "time": "12:35–13:25",
-        "title": "Collaborative XRAG Research Agenda & Roadmap",
-        "text": "Authors and attendees use a shared Miro board to identify and discuss emerging opportunities, unresolved challenges, evaluation needs, and future research directions. Participants then prioritize the most innovative and urgent ideas, contributing to a shared XRAG '26 research roadmap."
-      },
-      {
-        "time": "13:25–13:30",
-        "title": "Closing and next steps",
-        "text": "Summarize key takeaways, post-workshop outputs, and opportunities for continued community collaboration."
-      }    
-]
+      { "time": "12:50–13:00", "title": "Closing and next steps",       "text": "Key takeaways, post-workshop outputs, and community follow-up." }
+    ]
   },
 
   "keynote": {
