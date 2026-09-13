@@ -154,18 +154,20 @@
       { "time": "08:25–09:05", "title": "Invited keynote — Marco Sacco (CNR-STIIMA)", "text": "\"AI and XR: how the knowledge is used for customisation\" — confirmed keynote by Marco Sacco, Research Director at CNR-STIIMA (National Research Council of Italy) and Vice President of EuroXR.", "link": "keynote.html", "linkLabel": "Speaker bio & talk abstract →" },
       { "time": "09:05–10:00", "title": "Accepted paper presentations — Session 1", "text": "First block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       { "time": "10:00–10:30", "title": "Coffee break",                 "text": "ISMAR 2026 conference coffee break — informal networking." },
-      { "time": "10:30–11:25", "title": "Accepted paper presentations — Session 2", "text": "Second block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
+      { "time": "10:30–11:30", "title": "Accepted paper presentations — Session 2", "text": "Second block of 7 minute talks, followed by clustered discussion.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       {
-      "time": "11:25–11:55",
-      "title": "Thematic Discussion and Design Clinic Briefing",
-      "text": "Discuss key challenges around agent capabilities, user control, failure recovery, safety, and evaluation, then introduce the Agentic XR Scenario Canvas and organize participants into working groups."
+      "time": "11:30–12:00",
+      "title": "XRAG Futures Panel — What is New and What Comes Next?",
+      "text": "Authors of accepted XRAG contributions discuss what is genuinely novel in Agentic XR, which limitations remain unresolved, and which technological and human-centered developments are likely to shape the field in the coming years."
       },
       {
-        "time": "11:55–12:50",
-        "title": "Hands-on Design Clinic and Roadmap Building",
-        "text": "Develop concrete agentic XR scenarios across selected application domains and synthesize the group outputs into open challenges, design principles, benchmark needs, and evaluation requirements."
+        "time": "12:00–12:50",
+        "title": "Collaborative XRAG Research Agenda & Roadmap",
+        "text": "Authors and attendees use a shared Miro board to identify and discuss emerging opportunities, unresolved challenges, evaluation needs, and future research directions. Participants then prioritize the most innovative and urgent ideas, contributing to a shared XRAG '26 research roadmap."
       },
-      { "time": "12:50–13:00", "title": "Closing and next steps",       "text": "Key takeaways, post-workshop outputs, and community follow-up." }
+      { "time": "12:50–13:00", 
+      "title": "Closing and next steps",       
+      "text": "Key takeaways, post-workshop outputs, and community follow-up." }
     ]
   },
 
