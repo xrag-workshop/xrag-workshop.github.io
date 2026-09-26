@@ -247,7 +247,7 @@
   "organizers": {
     "kicker": "Organizing Committee",
     "title": "Organizers",
-    "intro": "An interdisciplinary team across XR, Agentic AI, computer vision, cognitive science, and human-centered systems. At least three organizers (Lorenzo Stacchio and Allegra De Filippo) will be physically present in Bari to manage the workshop.",
+    "intro": "An interdisciplinary team across XR, Agentic AI, computer vision, cognitive science, and human-centered systems. At least three organizers (Lorenzo Stacchio, Allegra De Filippo, and Claudio Sirocchi) will be physically present in Bari to manage the workshop.",
     "members": [
       {
         "name": "Lorenzo Stacchio",
@@ -296,6 +296,14 @@
         "email": "allegra.defilippo@unibo.it",
         "image": "organizzatori/allegra de filippo.jpg",
         "website": "https://www.unibo.it/sitoweb/allegra.defilippo/en"
+      },
+      {
+        "name": "Claudio Sirocchi",
+        "role": "Co-Organizer",
+        "affiliation": "Università Politecnica delle Marche, Italy",
+        "email": "c.sirocchi@pm.univpm.it",
+        "image": "organizzatori/claudio sirocchi.jpg",
+        "website": "https://dii.univpm.it/claudio-sirocchi/"
       },
       {
         "name": "José Manuel Alcalde Llergo",
