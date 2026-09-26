@@ -219,10 +219,31 @@
     const host = $("[data-slot='acceptedPapers']");
     if (!host) return;
 
+    // Authors may be plain names or { name, affiliation } objects.
+    const authors = list => {
+      if (!list || !list.length) return "";
+      const chips = list.map(a => {
+        const name = typeof a === "string" ? a : a.name;
+        const aff = typeof a === "string" ? "" : a.affiliation;
+        return `<li class="author-chip">
+            <span class="author-name">${escapeHtml(name)}</span>
+            ${aff ? `<span class="author-aff">${escapeHtml(aff)}</span>` : ""}
+          </li>`;
+      }).join("");
+      return `
+        <details class="paper-authors">
+          <summary>Authors</summary>
+          <ul class="author-chips">${chips}</ul>
+        </details>`;
+    };
+
     const papers = items => (items || []).map(p => `
       <article>
         <span class="paper-id">#${escapeHtml(p.id)}</span>
-        <h3>${escapeHtml(p.title)}</h3>
+        <div>
+          <h3>${escapeHtml(p.title)}</h3>
+          ${authors(p.authors)}
+        </div>
       </article>`).join("");
 
     host.innerHTML = ap.sessions

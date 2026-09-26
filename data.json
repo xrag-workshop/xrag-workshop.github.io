@@ -211,7 +211,7 @@
     "kicker": "Accepted Papers",
     "title": "Accepted Papers",
     "backLabel": "← Back to program",
-    "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! The opening framing talk plus two thematic presentation sessions cover all accepted papers on Tuesday 6 October 2026. Author lists and abstracts will be added soon.",
+    "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! The opening framing talk plus two thematic presentation sessions cover all accepted papers on Tuesday 6 October 2026. Click a paper's author tag to see its full author list.",
     "formatNote": "Presentation format: each paper gets an 8-minute talk with a maximum of 8 slides, back to back with no individual Q&A. Questions are collected during the sessions and addressed together in the XRAG Futures Panel (11:30–12:00), where the authors of the accepted contributions take the floor. Slides must be sent to the organizers at least 48 hours in advance so that each session runs from a single machine with no laptop changeover.",
     "sessions": [
       {
@@ -219,12 +219,49 @@
         "title": "Session 1 — Architectures, memory, and human–agent interaction",
         "text": "Six 8-minute talks on agentic architectures, memory, control, and AI-assisted creation.",
         "items": [
-          { "id": 1, "title": "Digital Genius Loci: A Modality-Agnostic LLM Backend with Persistent Memory for Immersive and Embodied Environments" },
-          { "id": 2, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes" },
-          { "id": 3, "title": "ArgumentMapper: Spatial Contracts for Agent-Generated Argument Exploration in Mixed Reality" },
-          { "id": 4, "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR" },
-          { "id": 5, "title": "Real-Time Collaborative Authoring of Virtual Environment Using Natural Language and AI" },
-          { "id": 6, "title": "InsAIde Out: Towards Emotion-Aware Agentic 3D World-Model Renderers for Adaptive Immersive Experiences" }
+          { "id": 1, "title": "Digital Genius Loci: A Modality-Agnostic LLM Backend with Persistent Memory for Immersive and Embodied Environments", "authors": [
+            { "name": "Gilda Manfredi", "affiliation": "University of Basilicata" },
+            { "name": "Nicola Capece", "affiliation": "University of Basilicata" },
+            { "name": "Valerio Colonnese", "affiliation": "University of Basilicata" },
+            { "name": "Ugo Erra", "affiliation": "University of Basilicata" }
+          ] },
+          { "id": 2, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes", "authors": [
+            { "name": "Aimilios Hadjiliasi", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" },
+            { "name": "Louis Nisiotis", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" }
+          ] },
+          { "id": 3, "title": "ArgumentMapper: Spatial Contracts for Agent-Generated Argument Exploration in Mixed Reality", "authors": [
+            { "name": "Jai Sachdeva", "affiliation": "Dalhousie University" },
+            { "name": "Prashant Rawat", "affiliation": "Dalhousie University" }
+          ] },
+          { "id": 4, "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR", "authors": [
+            { "name": "Emeric Marguet", "affiliation": "Department of Computer Science, Aarhus University" },
+            { "name": "Niklas Elmqvist", "affiliation": "Department of Computer Science, Aarhus University" },
+            { "name": "Sebastian Hubenschmid", "affiliation": "Department of Computer Science, Aarhus University" }
+          ] },
+          { "id": 5, "title": "Real-Time Collaborative Authoring of Virtual Environment Using Natural Language and AI", "authors": [
+            { "name": "Ashutosh Singla", "affiliation": "Visualisation Lab, University of Amsterdam" },
+            { "name": "Joey van der Kaaij", "affiliation": "Visualisation Lab, University of Amsterdam" },
+            { "name": "Tijm Lanjouw", "affiliation": "4D Research Lab, University of Amsterdam" },
+            { "name": "Boudewijn Koopmans", "affiliation": "Faculty of Humanities, University of Amsterdam" },
+            { "name": "Tijl Akkermans", "affiliation": "Autres Directions" },
+            { "name": "Dirk Bertels", "affiliation": "Studio Bertels" },
+            { "name": "Arthur van Schravendijk", "affiliation": "Studio Bertels" },
+            { "name": "Jitte Waagen", "affiliation": "4D Research Lab, University of Amsterdam" },
+            { "name": "Floribert Baudet", "affiliation": "Faculty of Military Sciences" },
+            { "name": "Martijn Arts", "affiliation": "Total Design" },
+            { "name": "Hayley Mickleburgh", "affiliation": "4D Research Lab, University of Amsterdam" },
+            { "name": "Robert Belleman", "affiliation": "Visualisation Lab, University of Amsterdam" }
+          ] },
+          { "id": 6, "title": "InsAIde Out: Towards Emotion-Aware Agentic 3D World-Model Renderers for Adaptive Immersive Experiences", "authors": [
+            { "name": "Andrea Ubaldi", "affiliation": "Università Cattolica del Sacro Cuore" },
+            { "name": "Leonardo Bordoni", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Juri Vitali", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Alessandro Galdelli", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Claudio Sirocchi", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Adriano Mancini", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Emanuele Frontoni", "affiliation": "Università di Macerata" },
+            { "name": "Andrea Gaggioli", "affiliation": "Università Cattolica del Sacro Cuore" }
+          ] }
         ]
       },
       {
@@ -232,13 +269,55 @@
         "title": "Session 2 — Agentic XR in the wild: applications and deployment",
         "text": "Seven 8-minute talks on deployed and applied agentic XR across industry, emergency response, health, education, and cultural heritage.",
         "items": [
-          { "id": 7,  "title": "MARE: A Mixed Reality Platform for Manual-Based Assembly Guidance with Multimodal Large Language Models" },
-          { "id": 8,  "title": "Integrating agentic AI into Immersive XR Experiences during Emergency Response Activities" },
-          { "id": 9, "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy" },
-          { "id": 10, "title": "Orchestrating Generative AI in Immersive Learning Environments for Students with Specific Learning Disorders" },
-          { "id": 11, "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo" },
-          { "id": 12, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage" },
-          { "id": 13, "title": "A Modular Camera-Agnostic RGB-D Pipeline for Rapid Photorealistic Full-Body Avatar Generation in XR" }
+          { "id": 7,  "title": "MARE: A Mixed Reality Platform for Manual-Based Assembly Guidance with Multimodal Large Language Models", "authors": [
+            { "name": "Claudio Sirocchi", "affiliation": "Università Politecnica delle Marche, Ancona" },
+            { "name": "Andrea Contursi", "affiliation": "Università Politecnica delle Marche, Ancona" },
+            { "name": "Najmeddine Felhi", "affiliation": "Università Politecnica delle Marche, Ancona" },
+            { "name": "Niccolò Tassoni", "affiliation": "Università Politecnica delle Marche, Ancona" },
+            { "name": "Lucia Migliorelli", "affiliation": "Università degli Studi di Teramo, Teramo" },
+            { "name": "Alessandro Galdelli", "affiliation": "Università Politecnica delle Marche, Ancona" },
+            { "name": "Adriano Mancini", "affiliation": "Università Politecnica delle Marche, Ancona" }
+          ] },
+          { "id": 8,  "title": "Integrating agentic AI into Immersive XR Experiences during Emergency Response Activities", "authors": [
+            { "name": "Fabio De Felice", "affiliation": "Exprivia (IRT)" },
+            { "name": "Agostino Abbatecola", "affiliation": "Exprivia (IRT)" },
+            { "name": "Anna Rosa Cannito", "affiliation": "Exprivia (IRT)" },
+            { "name": "Pietro Noviello", "affiliation": "Exprivia (IRT)" }
+          ] },
+          { "id": 9, "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy", "authors": [
+            { "name": "Francisco Javier Postigo-Capellán", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "José Manuel Alcalde-Llergo", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "Araceli Sánchez-Raya", "affiliation": "Dept. Psychology, University of Córdoba" },
+            { "name": "Carolina Pérez-Dueñas", "affiliation": "Dept. Psychology, University of Córdoba" },
+            { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" }
+          ] },
+          { "id": 10, "title": "Orchestrating Generative AI in Immersive Learning Environments for Students with Specific Learning Disorders", "authors": [
+            { "name": "Leonardo Bordoni", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Juri Vitali", "affiliation": "Università Politecnica delle Marche" },
+            { "name": "Elisa Saraceni", "affiliation": "Università degli studi di Macerata" },
+            { "name": "Benedetta Petroselli", "affiliation": "Università di Macerata" },
+            { "name": "Andrea Ubaldi", "affiliation": "Università Cattolica del Sacro Cuore" },
+            { "name": "Lucia Migliorelli", "affiliation": "Università degli Studi di Teramo" },
+            { "name": "Emanuele Frontoni", "affiliation": "Università di Macerata" }
+          ] },
+          { "id": 11, "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo", "authors": [
+            { "name": "Rafael Molleja-Jiménez", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "Cristóbal Romero-Morales", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" }
+          ] },
+          { "id": 12, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage", "authors": [
+            { "name": "Andrea Antonio Cantone", "affiliation": "University of Salerno" },
+            { "name": "Antonio Walter De Fusco", "affiliation": "University of Salerno" },
+            { "name": "Monica Sebillo", "affiliation": "University of Salerno" },
+            { "name": "Giuliana Vitiello", "affiliation": "University of Salerno" }
+          ] },
+          { "id": 13, "title": "A Modular Camera-Agnostic RGB-D Pipeline for Rapid Photorealistic Full-Body Avatar Generation in XR", "authors": [
+            { "name": "Vincenzo Armandi", "affiliation": "University of Bologna, Department of the Arts" },
+            { "name": "Giulio Augello", "affiliation": "University of Bologna, Department of the Arts" },
+            { "name": "Silvano Carradori", "affiliation": "University of Bologna, Department of the Arts" },
+            { "name": "Pasquale Cascarano", "affiliation": "Alma Mater Studiorum – Università di Bologna" },
+            { "name": "Gustavo Marfia", "affiliation": "University of Bologna" }
+          ] }
         ]
       }
     ]
