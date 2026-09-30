@@ -238,7 +238,7 @@
             { "name": "Niklas Elmqvist", "affiliation": "Department of Computer Science, Aarhus University" },
             { "name": "Sebastian Hubenschmid", "affiliation": "Department of Computer Science, Aarhus University" }
           ] },
-          { "id": 5, "title": "Real-Time Collaborative Authoring of Virtual Environment Using Natural Language and AI", "authors": [
+          { "id": 5, "title": "Virtual Kattenburg: Real-Time Collaborative Authoring of a Historical Urban Environment Using Natural Language and AI", "authors": [
             { "name": "Ashutosh Singla", "affiliation": "Visualisation Lab, University of Amsterdam" },
             { "name": "Joey van der Kaaij", "affiliation": "Visualisation Lab, University of Amsterdam" },
             { "name": "Tijm Lanjouw", "affiliation": "4D Research Lab, University of Amsterdam" },
@@ -291,7 +291,7 @@
             { "name": "Carolina Pérez-Dueñas", "affiliation": "Dept. Psychology, University of Córdoba" },
             { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" }
           ] },
-          { "id": 10, "title": "Orchestrating Generative AI in Immersive Learning Environments for Students with Specific Learning Disorders", "authors": [
+          { "id": 10, "title": "ATHENA: Toward Generative AI-Orchestrated Immersive Learning for Students with Specific Learning Disorders", "authors": [
             { "name": "Leonardo Bordoni", "affiliation": "Università Politecnica delle Marche" },
             { "name": "Juri Vitali", "affiliation": "Università Politecnica delle Marche" },
             { "name": "Elisa Saraceni", "affiliation": "Università degli studi di Macerata" },
