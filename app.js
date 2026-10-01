@@ -45,7 +45,8 @@
     const navRoot = document.body.getAttribute("data-nav-root") || "";
     host.innerHTML = data.nav.map(item => {
       const href = item.href.startsWith("#") ? navRoot + item.href : item.href;
-      return `<li class="nav-item"><a class="nav-link" href="${escapeHtml(href)}">${escapeHtml(item.label)}</a></li>`;
+      const current = href === window.location.pathname.split("/").pop();
+      return `<li class="nav-item"><a class="nav-link${current ? " active" : ""}"${current ? ' aria-current="page"' : ""} href="${escapeHtml(href)}">${escapeHtml(item.label)}</a></li>`;
     }).join("");
   }
 
@@ -264,6 +265,36 @@
     if (ap.pageTitle) document.title = ap.pageTitle;
   }
 
+  async function renderPanelists() {
+    const host = $("[data-slot='panelists']");
+    if (!host) return;
+    document.title = "XRAG '26 — Panelists";
+    try {
+      const response = await fetch("assets/panelist/xrag_panelists_bios.json", { cache: "no-store" });
+      if (!response.ok) throw new Error(`Failed to load panelists (${response.status})`);
+      const members = await response.json();
+      if (!members.length) {
+        host.innerHTML = '<p class="text-center text-muted-ink">Panelists will be announced soon.</p>';
+        return;
+      }
+      host.innerHTML = members.map((member, index) => `
+        <div class="col-md-6 col-xl-4">
+          <article class="person panelist" aria-labelledby="panelist-${index}">
+            <img src="assets/panelist/${escapeHtml(encodeURIComponent(member.image_path))}"
+                 alt="${escapeHtml(member.name)}" loading="lazy" decoding="async" width="400" height="400">
+            <div class="body">
+              <span class="person-role">Panelist</span>
+              <h2 id="panelist-${index}">${escapeHtml(member.name)}</h2>
+              <p class="panelist-bio">${escapeHtml(member.bio)}</p>
+            </div>
+          </article>
+        </div>`).join("");
+    } catch (error) {
+      console.error(error);
+      host.innerHTML = '<p class="text-center text-muted-ink" role="alert">The panelist biographies could not be loaded. Please reload the page to try again.</p>';
+    }
+  }
+
   function renderPeople(slot, members) {
     const host = $(`[data-slot='${slot}']`);
     if (!host) return;
@@ -414,6 +445,7 @@
     renderProgram(data);
     renderKeynote(data);
     renderAcceptedPapers(data);
+    renderPanelists();
     renderPeople("organizers", data.organizers && data.organizers.members);
     renderCommittee(data);
     renderSponsors(data);

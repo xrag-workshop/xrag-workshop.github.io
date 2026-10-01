@@ -2,7 +2,7 @@
 
 Static website for **XRAG '26 — Agentic AI for Extended Reality**, a proposed IEEE ISMAR 2026 workshop in Bari, Italy.
 
-All content is driven by a single JSON file. **You do not need to touch HTML or CSS to update the workshop info.** Just edit `data.json` and refresh.
+Workshop content is driven by `data.json`; panelist names, photos, and biographies are loaded from `assets/panelist/xrag_panelists_bios.json`. **You do not need to touch HTML or CSS to update this content.**
 
 Layout uses **Bootstrap 5** (loaded from jsDelivr CDN), so the site is fully responsive on phones, tablets, and desktop without any build step.
 
@@ -11,6 +11,8 @@ Layout uses **Bootstrap 5** (loaded from jsDelivr CDN), so the site is fully res
 | File          | Purpose                                                    |
 |---------------|------------------------------------------------------------|
 | `index.html`  | Single-page layout (Bootstrap 5 grid + anchored sections)  |
+| `panelists.html` | Panelist portraits and complete biographies |
+| `assets/panelist/xrag_panelists_bios.json` | Panelist names, bios, and image filenames relative to `assets/panelist/` |
 | `styles.css`  | Theme layer on top of Bootstrap (banner palette: cream / brown / blue / red / yellow) |
 | `app.js`      | Loads `data.json` and renders all sections                 |
 | `data.json`   | **All editable content** — workshop info, dates, people, etc. |

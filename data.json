@@ -22,6 +22,7 @@
     { "label": "Submission",  "href": "#submission" },
     { "label": "Dates",       "href": "#dates" },
     { "label": "Program",     "href": "#program" },
+    { "label": "Panelists",   "href": "panelists.html" },
     { "label": "Organizers",  "href": "#organizers" },
     { "label": "Committee",   "href": "#committee" }
   ],
@@ -158,7 +159,9 @@
       {
       "time": "11:30–12:00",
       "title": "XRAG Futures Panel — What is New and What Comes Next?",
-      "text": "Authors of accepted XRAG contributions discuss what is genuinely novel in Agentic XR, which limitations remain unresolved, and which technological and human-centered developments are likely to shape the field in the coming years."
+      "text": "Authors of accepted XRAG contributions discuss what is genuinely novel in Agentic XR, which limitations remain unresolved, and which technological and human-centered developments are likely to shape the field in the coming years.",
+      "link": "panelists.html",
+      "linkLabel": "Meet the panelists →"
       },
       {
         "time": "12:00–12:50",

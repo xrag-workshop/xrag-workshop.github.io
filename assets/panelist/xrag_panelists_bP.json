@@ -28,5 +28,11 @@
     "name": "Fabio De Felice (Exprivia)",
     "image_path": "1516277656235.jpg",
     "bio": "Fabio De Felice is a Systems Architect at Exprivia, where he coordinates research and development activities on Extended Reality, Digital Twins, and AI-driven 3D systems, with a focus on agentic AI and immersive technologies."
+  },
+  {
+    "name": "Claudio Sirocchi",
+    "image_path": "thumb_Sirocchi.png",
+    "bio": "Claudio Sirocchi is a PhD student in Information Engineering at Università Politecnica delle Marche, working on Agentic AI and XR for industrial anomaly detection, Human-in-the-Loop interaction, safety, and usability."
   }
+
 ]

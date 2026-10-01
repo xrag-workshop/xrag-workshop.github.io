@@ -697,6 +697,17 @@ section.block.ink .text-muted-ink { color: rgba(255, 246, 229, 0.7) !important; 
 .person .aff  { margin: 0 0 6px; color: var(--ink-soft); font-size: 12.5px; line-height: 1.35; }
 .person a     { color: var(--blue-deep); font-weight: 700; font-size: 12px; word-break: break-all; }
 
+/* === PANELISTS ======================================== */
+.panelist .body { padding: 24px; }
+.panelist h2 { font-size: 22px; font-weight: 800; line-height: 1.25; margin: 10px 0 14px; }
+.panelist .panelist-bio { color: var(--ink-soft); font-size: 15.5px; margin: 0; }
+.panelist img { height: auto; }
+
+/* Keep the shared navigation comfortable with the panelists link. */
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .site-header .brand-text { display: none !important; }
+}
+
 /* === COMMITTEE ======================================== */
 .committee-list li {
   padding: 8px 0;
