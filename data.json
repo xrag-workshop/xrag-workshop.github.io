@@ -157,16 +157,16 @@
       { "time": "10:00–10:30", "title": "Coffee break",                 "text": "ISMAR 2026 conference coffee break — informal networking." },
       { "time": "10:30–11:30", "title": "Accepted paper presentations — Session 2", "text": "Applications and deployment: seven 8-minute talks back to back, with no individual Q&A. Questions are collected during the block and carried into the XRAG Futures Panel.", "link": "accepted-papers.html", "linkLabel": "List of accepted papers →" },
       {
-      "time": "11:30–12:00",
+      "time": "11:30–12:30",
       "title": "XRAG Futures Panel — What is New and What Comes Next?",
-      "text": "Authors of accepted XRAG contributions discuss what is genuinely novel in Agentic XR, which limitations remain unresolved, and which technological and human-centered developments are likely to shape the field in the coming years.",
+      "text": "Part 1 of a two-part interactive block. Authors of accepted XRAG contributions discuss what is genuinely novel in Agentic XR, which limitations remain unresolved, and which technological and human-centered developments are likely to shape the field in the coming years. Attendees are invited to take notes on the discussion: the points raised here are the starting material for the collaborative research agenda that follows directly afterwards.",
       "link": "panelists.html",
       "linkLabel": "Meet the panelists →"
       },
       {
-        "time": "12:00–12:50",
+        "time": "12:30–12:50",
         "title": "Collaborative XRAG Research Agenda & Roadmap",
-        "text": "Authors and attendees use a shared Miro board to identify and discuss emerging opportunities, unresolved challenges, evaluation needs, and future research directions. Participants then prioritize the most innovative and urgent ideas, contributing to a shared XRAG '26 research roadmap."
+        "text": "Part 2, building directly on the XRAG Futures Panel. Authors and attendees bring their notes from the panel discussion onto a shared Miro board, turning them into emerging opportunities, unresolved challenges, evaluation needs, and future research directions. Participants then prioritize the most innovative and urgent ideas, contributing to a shared XRAG '26 research roadmap."
       },
       { "time": "12:50–13:00", 
       "title": "Closing and next steps",       
@@ -215,7 +215,7 @@
     "title": "Accepted Papers",
     "backLabel": "← Back to program",
     "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! The opening framing talk plus two thematic presentation sessions cover all accepted papers on Tuesday 6 October 2026. Click a paper's author tag to see its full author list.",
-    "formatNote": "Presentation format: each paper gets an 8-minute talk with a maximum of 8 slides, back to back with no individual Q&A. Questions are collected during the sessions and addressed together in the XRAG Futures Panel (11:30–12:00), where the authors of the accepted contributions take the floor. Slides must be sent to the organizers at least 48 hours in advance so that each session runs from a single machine with no laptop changeover.",
+    "formatNote": "Presentation format: each paper gets an 8-minute talk with a maximum of 8 slides, back to back with no individual Q&A. Questions are collected during the sessions and addressed together in the XRAG Futures Panel (11:30–12:15), where the authors of the accepted contributions take the floor. Slides must be sent to the organizers at least 48 hours in advance so that each session runs from a single machine with no laptop changeover.",
     "sessions": [
       {
         "time": "09:05–10:00",
