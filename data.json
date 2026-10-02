@@ -15,7 +15,6 @@
     "contactEmail": "lorenzo.stacchio@unimc.it",
     "bannerImage": "assets/banner.png"
   },
-
   "nav": [
     { "label": "Home",        "href": "#home" },
     { "label": "Call",        "href": "#cfp" },
@@ -26,7 +25,6 @@
     { "label": "Organizers",  "href": "#organizers" },
     { "label": "Committee",   "href": "#committee" }
   ],
-
   "hero": {
     "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — Tuesday 6 October 2026, Morning Session (08:15–13:00)",
     "blurb": "XRAG '26 is a focused venue for researchers, designers, practitioners, and industry experts exploring how AI agents can perceive, reason, remember, plan, and act in XR systems while keeping people in control.",
@@ -115,7 +113,6 @@
       }
     ]
   },
-
   "importantDates": {
     "kicker": "Important Dates",
     "title": "Key deadlines",
@@ -127,7 +124,6 @@
       { "date": "Oct 6, 2026",       "title": "XRAG '26 Workshop",           "text": "Half-day in-person workshop in Bari, Italy — Tuesday 6 October, Morning Session (08:15–13:00), as listed in the official ISMAR 2026 workshop program." }
     ]
   },
-
   "submission": {
     "kicker": "Submission",
     "title": "How to submit",
@@ -145,7 +141,6 @@
       "Accepted papers are included in the ISMAR 2026 Adjunct proceedings and IEEE Xplore, subject to ISMAR's final workshop publication policy."
     ]
   },
-
   "program": {
     "kicker": "Program",
     "title": "Half-day agenda",
@@ -173,7 +168,6 @@
       "text": "Key takeaways, post-workshop outputs, and community follow-up." }
     ]
   },
-
   "keynote": {
     "pageTitle": "XRAG '26 — Keynote: Marco Sacco (CNR-STIIMA)",
     "kicker": "Invited Keynote",
@@ -208,7 +202,6 @@
     "He has authored over 180 publications, including articles in academic journals and conference proceedings."
     ]
   },
-
   "acceptedPapers": {
     "pageTitle": "XRAG '26 — Accepted Papers",
     "kicker": "Accepted Papers",
