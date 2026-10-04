@@ -221,9 +221,12 @@
             { "name": "Valerio Colonnese", "affiliation": "University of Basilicata" },
             { "name": "Ugo Erra", "affiliation": "University of Basilicata" }
           ] },
-          { "id": 2, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes", "authors": [
-            { "name": "Aimilios Hadjiliasi", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" },
-            { "name": "Louis Nisiotis", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" }
+          { "id": 2, "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy", "authors": [
+            { "name": "Francisco Javier Postigo-Capellán", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "José Manuel Alcalde-Llergo", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "Araceli Sánchez-Raya", "affiliation": "Dept. Psychology, University of Córdoba" },
+            { "name": "Carolina Pérez-Dueñas", "affiliation": "Dept. Psychology, University of Córdoba" },
+            { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" }
           ] },
           { "id": 3, "title": "ArgumentMapper: Spatial Contracts for Agent-Generated Argument Exploration in Mixed Reality", "authors": [
             { "name": "Jai Sachdeva", "affiliation": "Dalhousie University" },
@@ -280,12 +283,9 @@
             { "name": "Anna Rosa Cannito", "affiliation": "Exprivia (IRT)" },
             { "name": "Pietro Noviello", "affiliation": "Exprivia (IRT)" }
           ] },
-          { "id": 9, "title": "Integrating Agentic AI and Spatial Computing for Adaptive Neurodevelopmental VR Therapy", "authors": [
-            { "name": "Francisco Javier Postigo-Capellán", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" },
-            { "name": "José Manuel Alcalde-Llergo", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" },
-            { "name": "Araceli Sánchez-Raya", "affiliation": "Dept. Psychology, University of Córdoba" },
-            { "name": "Carolina Pérez-Dueñas", "affiliation": "Dept. Psychology, University of Córdoba" },
-            { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. Computer Science and Artificial Intelligence, University of Córdoba" }
+          { "id": 9, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes", "authors": [
+            { "name": "Aimilios Hadjiliasi", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" },
+            { "name": "Louis Nisiotis", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" }
           ] },
           { "id": 10, "title": "ATHENA: Toward Generative AI-Orchestrated Immersive Learning for Students with Specific Learning Disorders", "authors": [
             { "name": "Leonardo Bordoni", "affiliation": "Università Politecnica delle Marche" },
@@ -296,16 +296,16 @@
             { "name": "Lucia Migliorelli", "affiliation": "Università degli Studi di Teramo" },
             { "name": "Emanuele Frontoni", "affiliation": "Università di Macerata" }
           ] },
-          { "id": 11, "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo", "authors": [
-            { "name": "Rafael Molleja-Jiménez", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" },
-            { "name": "Cristóbal Romero-Morales", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" },
-            { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" }
-          ] },
-          { "id": 12, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage", "authors": [
+          { "id": 11, "title": "A Modular XR Framework for Verified and Accessible Cultural Heritage", "authors": [
             { "name": "Andrea Antonio Cantone", "affiliation": "University of Salerno" },
             { "name": "Antonio Walter De Fusco", "affiliation": "University of Salerno" },
             { "name": "Monica Sebillo", "affiliation": "University of Salerno" },
             { "name": "Giuliana Vitiello", "affiliation": "University of Salerno" }
+          ] },
+          { "id": 12, "title": "Interactive Mixed-Reality Environment Featuring the Chess Player and AI Agent of Engineer and Inventor Leonardo Torres Quevedo", "authors": [
+            { "name": "Rafael Molleja-Jiménez", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "Cristóbal Romero-Morales", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" },
+            { "name": "Enrique Yeguas-Bolívar", "affiliation": "Dept. of Computer Science and Artificial Intelligence, University of Córdoba" }
           ] },
           { "id": 13, "title": "A Modular Camera-Agnostic RGB-D Pipeline for Rapid Photorealistic Full-Body Avatar Generation in XR", "authors": [
             { "name": "Vincenzo Armandi", "affiliation": "University of Bologna, Department of the Arts" },
