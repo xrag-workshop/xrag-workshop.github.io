@@ -100,8 +100,8 @@
       },
       {
         "badge": "News",
-        "title": "14 out of 20 submissions accepted for publication!",
-        "text": "We are excited to announce that 14 out of 20 submissions to XRAG '26 have been accepted for publication. Congratulations to all authors! More details on the final program will be announced soon."
+        "title": "13 out of 20 submissions accepted for publication!",
+        "text": "We are excited to announce that 13 out of 20 submissions to XRAG '26 have been accepted for publication. Congratulations to all authors! More details on the final program will be announced soon."
       },
       {
         "badge": "News",
@@ -207,7 +207,7 @@
     "kicker": "Accepted Papers",
     "title": "Accepted Papers",
     "backLabel": "← Back to program",
-    "intro": "14 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! The opening framing talk plus two thematic presentation sessions cover all accepted papers on Tuesday 6 October 2026. Click a paper's author tag to see its full author list.",
+    "intro": "13 out of 20 submissions to XRAG '26 were accepted for publication. Congratulations to all authors! The opening framing talk plus two thematic presentation sessions cover all accepted papers on Tuesday 6 October 2026. Click a paper's author tag to see its full author list.",
     "formatNote": "Presentation format: each paper gets an 8-minute talk with a maximum of 8 slides, back to back with no individual Q&A. Questions are collected during the sessions and addressed together in the XRAG Futures Panel (11:30–12:15), where the authors of the accepted contributions take the floor. Slides must be sent to the organizers at least 48 hours in advance so that each session runs from a single machine with no laptop changeover.",
     "sessions": [
       {
