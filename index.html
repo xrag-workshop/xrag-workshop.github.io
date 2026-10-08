@@ -64,6 +64,39 @@
         </div>
       </section>
 
+      <!-- ============ NEWS: BEST PAPER AWARDS ============ -->
+      <section id="awards" class="block paper">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4 mb-md-5">
+            <p class="section-kicker awards-kicker" data-bind="awards.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="awards.title"></h2>
+            <p class="lead text-muted-ink" data-bind="awards.intro"></p>
+          </div>
+          <div class="row g-3 g-md-4 align-items-stretch justify-content-center">
+            <div class="col-lg-7 d-grid gap-3" data-slot="awards"></div>
+            <div class="col-lg-5" data-slot="awardsPhoto"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PHOTO GALLERY ============ -->
+      <section id="gallery" class="block alt">
+        <div class="container-xxl">
+          <div class="section-head text-center mx-auto mb-4 mb-md-5">
+            <p class="section-kicker" data-bind="gallery.kicker"></p>
+            <h2 class="display-5 fw-black" data-bind="gallery.title"></h2>
+            <p class="lead text-muted-ink" data-bind="gallery.intro"></p>
+          </div>
+          <div class="d-grid gap-4 gap-md-5" data-slot="gallery"></div>
+        </div>
+      </section>
+
+      <dialog class="lightbox" aria-label="Photo viewer">
+        <button type="button" class="lightbox-close" aria-label="Close photo">&times;</button>
+        <div class="lightbox-frame"></div>
+        <p class="lightbox-caption"></p>
+      </dialog>
+
       <!-- ============ ABOUT (part of Home) ============ -->
       <section id="about" class="block paper" aria-label="About the workshop">
         <div class="container-xxl">

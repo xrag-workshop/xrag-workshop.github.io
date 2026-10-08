@@ -134,6 +134,67 @@
     }).join("");
   }
 
+  // URL-encode each path segment so spaces / accents work everywhere
+  const safePath = p => String(p || "").split("/").map(encodeURIComponent).join("/");
+  const thumbPath = p => safePath(String(p).replace(/\/([^/]+)$/, "/thumbs/$1"));
+
+  function renderAwards(data) {
+    const a = data.awards || {};
+    const host = $("[data-slot='awards']");
+    if (host && a.items) {
+      host.innerHTML = a.items.map(it => `
+        <article class="award-card ${escapeHtml(it.tier || "")}">
+          <p class="award-badge">${escapeHtml(it.badge)}</p>
+          <h3>${escapeHtml(it.title)}</h3>
+          <p class="award-authors">${escapeHtml(it.authors)}</p>
+          <p class="award-aff">${escapeHtml(it.affiliation || "")}</p>
+        </article>`).join("");
+    }
+    const photo = $("[data-slot='awardsPhoto']");
+    if (photo && a.image) {
+      photo.innerHTML = `
+        <button type="button" class="gallery-item award-photo" data-full="${escapeHtml(safePath(a.image))}" data-caption="${escapeHtml(a.imageAlt || "")}">
+          <img src="${escapeHtml(thumbPath(a.image))}" alt="${escapeHtml(a.imageAlt || "")}" loading="lazy" decoding="async" width="800" height="600">
+        </button>`;
+    }
+  }
+
+  function renderGallery(data) {
+    const g = data.gallery || {};
+    const host = $("[data-slot='gallery']");
+    if (!host || !g.sections) return;
+    host.innerHTML = g.sections.map(sec => `
+      <section class="gallery-section" aria-label="${escapeHtml(sec.title)}">
+        <h3 class="gallery-title">${escapeHtml(sec.title)}</h3>
+        <div class="gallery-grid">
+          ${(sec.photos || []).map(ph => `
+            <button type="button" class="gallery-item" data-full="${escapeHtml(safePath(ph.src))}" data-caption="${escapeHtml(ph.alt || "")}">
+              <img src="${escapeHtml(thumbPath(ph.src))}" alt="${escapeHtml(ph.alt || "")}" loading="lazy" decoding="async" width="800" height="600"${ph.position ? ` style="object-position:${escapeHtml(ph.position)}"` : ""}>
+            </button>`).join("")}
+        </div>
+      </section>`).join("");
+  }
+
+  function setupLightbox() {
+    const dlg = $("dialog.lightbox");
+    if (!dlg || typeof dlg.showModal !== "function") return;
+    const frame = $(".lightbox-frame", dlg);
+    const caption = $(".lightbox-caption", dlg);
+    document.addEventListener("click", e => {
+      const item = e.target.closest(".gallery-item");
+      if (!item) return;
+      const img = document.createElement("img");
+      img.src = item.dataset.full;
+      img.alt = item.dataset.caption || "";
+      frame.replaceChildren(img);
+      caption.textContent = item.dataset.caption || "";
+      dlg.showModal();
+    });
+    $(".lightbox-close", dlg).addEventListener("click", () => dlg.close());
+    // Clicking the backdrop (outside the frame) closes the viewer
+    dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+  }
+
   function renderDates(data) {
     const host = $("[data-slot='dates']");
     if (!host || !data.importantDates || !data.importantDates.items) return;
@@ -242,6 +303,7 @@
       <article>
         <span class="paper-id">#${escapeHtml(p.id)}</span>
         <div>
+          ${p.award ? `<p class="paper-award">${escapeHtml(p.award)}</p>` : ""}
           <h3>${escapeHtml(p.title)}</h3>
           ${authors(p.authors)}
         </div>
@@ -437,6 +499,9 @@
     renderNav(data);
     renderSnapshot(data);
     renderHeroActions(data);
+    renderAwards(data);
+    renderGallery(data);
+    setupLightbox();
     renderAbout(data);
     renderTopics(data);
     renderCfp(data);

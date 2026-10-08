@@ -17,6 +17,8 @@
   },
   "nav": [
     { "label": "Home",        "href": "#home" },
+    { "label": "Awards",      "href": "#awards" },
+    { "label": "Photos",      "href": "#gallery" },
     { "label": "Call",        "href": "#cfp" },
     { "label": "Submission",  "href": "#submission" },
     { "label": "Dates",       "href": "#dates" },
@@ -29,8 +31,79 @@
     "eyebrow": "Co-located with IEEE ISMAR 2026 — Bari, Italy — Tuesday 6 October 2026, Morning Session (08:15–13:00)",
     "blurb": "XRAG '26 is a focused venue for researchers, designers, practitioners, and industry experts exploring how AI agents can perceive, reason, remember, plan, and act in XR systems while keeping people in control.",
     "ctas": [
-      { "label": "Call for Papers",  "href": "#cfp",        "style": "primary" },
-      { "label": "Important Dates",  "href": "#dates",      "style": "ghost"   }
+      { "label": "Best Paper Awards", "href": "#awards",    "style": "primary" },
+      { "label": "Event Photos",      "href": "#gallery",   "style": "ghost"   }
+    ]
+  },
+
+  "awards": {
+    "kicker": "News",
+    "title": "Best Paper Award & Honorable Mention",
+    "intro": "We are delighted to announce the Best Paper Award and Honorable Mention of the 1st International Workshop on Agentic AI for Extended Reality @ IEEE ISMAR 2026. Congratulations to both teams for their excellent contributions to XRAG '26! We hope these awards are just the beginning, and we look forward to seeing how these ideas evolve from here.",
+    "image": "assets/gallery/award-1.jpg",
+    "imageAlt": "XRAG '26 award ceremony: award winners and organizers in front of the projected awards slide, Bari, Italy.",
+    "items": [
+      {
+        "badge": "Best Paper Award",
+        "tier": "best",
+        "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
+        "authors": "Aimilios Hadjiliasi and Louis Nisiotis",
+        "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)"
+      },
+      {
+        "badge": "Honorable Mention",
+        "tier": "mention",
+        "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR",
+        "authors": "Emeric Marguet, Niklas Elmqvist, and Sebastian Hubenschmid",
+        "affiliation": "Department of Computer Science, Aarhus University"
+      }
+    ]
+  },
+
+  "gallery": {
+    "kicker": "Photos",
+    "title": "XRAG '26 in pictures",
+    "intro": "Highlights from the workshop morning in Bari, Italy, on Tuesday 6 October 2026.",
+    "sections": [
+      {
+        "title": "Opening and framing",
+        "photos": [
+          { "src": "assets/gallery/opening-1.jpg", "alt": "The XRAG '26 organizers together before the opening." },
+          { "src": "assets/gallery/opening-2.jpg", "alt": "Opening talk in front of the XRAG '26 title slide." },
+          { "src": "assets/gallery/opening-3.jpg", "alt": "Attendees seated in the room at the start of the workshop." }
+        ]
+      },
+      {
+        "title": "Keynote — Marco Sacco (CNR-STIIMA)",
+        "photos": [
+          { "src": "assets/gallery/keynote-1.jpg", "alt": "Marco Sacco presenting the keynote slide on adaptability." },
+          { "src": "assets/gallery/keynote-2.jpg", "alt": "Marco Sacco introducing his background at CNR-STIIMA and EuroXR." },
+          { "src": "assets/gallery/keynote-3.jpg", "alt": "A full room following the keynote." }
+        ]
+      },
+      {
+        "title": "Paper sessions",
+        "photos": [
+          { "src": "assets/gallery/papers-1.jpg", "alt": "Presentation of \"I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR\"." },
+          { "src": "assets/gallery/papers-2.jpg", "alt": "A presenter discussing photorealistic avatars for XR." },
+          { "src": "assets/gallery/papers-3.jpg", "alt": "Audience listening during the paper sessions." }
+        ]
+      },
+      {
+        "title": "XRAG Futures Panel",
+        "photos": [
+          { "src": "assets/gallery/panel-1.jpg", "alt": "Panelists seated in a circle with attendees during the XRAG Futures Panel." },
+          { "src": "assets/gallery/panel-2.jpg", "alt": "A packed room during the panel discussion." },
+          { "src": "assets/gallery/panel-3.jpg", "alt": "The moderator inviting attendees to join the shared board via QR code.", "position": "60% 40%" }
+        ]
+      },
+      {
+        "title": "Award ceremony",
+        "photos": [
+          { "src": "assets/gallery/award-1.jpg", "alt": "Award winners and organizers with the Best Paper certificate." },
+          { "src": "assets/gallery/award-2.jpg", "alt": "Award winners and organizers in front of the Honorable Mention slide." }
+        ]
+      }
     ]
   },
 
@@ -231,7 +304,7 @@
             { "name": "Jai Sachdeva", "affiliation": "Dalhousie University" },
             { "name": "Prashant Rawat", "affiliation": "Dalhousie University" }
           ] },
-          { "id": 4, "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR", "authors": [
+          { "id": 4, "award": "Honorable Mention", "title": "I Want to be Iron Man: Exploring JARVIS as Future Vision for AI Assistants in AR", "authors": [
             { "name": "Emeric Marguet", "affiliation": "Department of Computer Science, Aarhus University" },
             { "name": "Niklas Elmqvist", "affiliation": "Department of Computer Science, Aarhus University" },
             { "name": "Sebastian Hubenschmid", "affiliation": "Department of Computer Science, Aarhus University" }
@@ -282,7 +355,7 @@
             { "name": "Anna Rosa Cannito", "affiliation": "Exprivia (IRT)" },
             { "name": "Pietro Noviello", "affiliation": "Exprivia (IRT)" }
           ] },
-          { "id": 9, "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes", "authors": [
+          { "id": 9, "award": "Best Paper Award", "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes", "authors": [
             { "name": "Aimilios Hadjiliasi", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" },
             { "name": "Louis Nisiotis", "affiliation": "University of Central Lancashire, Cyprus (UCLan Cyprus)" }
           ] },
