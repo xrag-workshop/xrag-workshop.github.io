@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://ismar26.org/\" -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\")",
+      "Bash(curl -sL \"https://www.ismar26.org/\" -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\")"
+    ]
+  }
+}

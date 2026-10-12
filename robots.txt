@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /ignores/
+
+Sitemap: https://xrag-workshop.github.io/sitemap.xml

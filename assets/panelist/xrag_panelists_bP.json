@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Gilda Manfredi (Unibas)",
+    "image_path": "26-03-03_16-50-09-572.jpg",
+    "bio": "Gilda Manfredi is a Research Fellow at the University of Basilicata, and her research focuses on Deep Learning, Computer Graphics, eXtended Reality, and Human-Computer Interaction."
+  },
+  {
+    "name": "Sebastian Hubenschmid (Aarhus University)",
+    "image_path": "image.jpg",
+    "bio": "Sebastian is a postdoctoral researcher at Aarhus University, Denmark, where he investigates the use of AI agents for spatial reasoning to explore how data visualizations can be harmoniously embedded in mixed and cross-reality environments."
+  },
+  {
+    "name": "Andrea Ubaldi (Unicatt)",
+    "image_path": "PIE_0258.JPG",
+    "bio": "Andrea Ubaldi is a psychologist and PhD candidate in Psychology. His research focuses on Artificial Intelligence and multimodal prompting, exploring both their psychological implications and potential applications to enhance human well-being."
+  },
+  {
+    "name": "Lucchas Ribeiro Skreinig (TU Graz)",
+    "image_path": "pic.jpg",
+    "bio": "Lucchas Ribeiro Skreinig (Graz University of Technology) works on immersive instruction presentation and XR content authoring tools, investigating and improving the accuracy and scalability of content derived from common instruction representations."
+  },
+  {
+    "name": "Pasquale Cascarano (Unibo)",
+    "image_path": "ea28d79c-7e16-4f6b-b97e-006f5d43f464.png",
+    "bio": "Pasquale Cascarano is a researcher at the Virtual and Augmented Reality Lab at the University of Bologna, whose research focuses on the intersection of artificial intelligence and extended reality, with applications in both medicine and the creative industries."
+  },
+  {
+    "name": "Fabio De Felice (Exprivia)",
+    "image_path": "1516277656235.jpg",
+    "bio": "Fabio De Felice is a Systems Architect at Exprivia, where he coordinates research and development activities on Extended Reality, Digital Twins, and AI-driven 3D systems, with a focus on agentic AI and immersive technologies."
+  },
+  {
+    "name": "Claudio Sirocchi",
+    "image_path": "thumb_Sirocchi.png",
+    "bio": "Claudio Sirocchi is a PhD student in Information Engineering at Università Politecnica delle Marche, working on Agentic AI and XR for industrial anomaly detection, Human-in-the-Loop interaction, safety, and usability."
+  }
+
+]
